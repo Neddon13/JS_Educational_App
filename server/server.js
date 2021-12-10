@@ -7,17 +7,17 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// MongoClient.connect('mongodb://127.0.0.1:27017',
-// {useUnifiedTopology: true})
-// .then((client) => {
-//     const db = client.db('hotel_bookings');
-//     const bookingsCollection = db.collection('bookings');
-//     const bookingsRouter = createRouter(bookingsCollection);
-//     app.use('/api/bookings', bookingsRouter);
-// })
-// .catch(console.error);
+MongoClient.connect('mongodb://127.0.0.1:27017',
+{useUnifiedTopology: true})
+.then((client) => {
+    const db = client.db('countries_trumps');
+    const countriesCollection = db.collection('countries');
+    const countriesRouter = createRouter(countriesCollection);
+    app.use('/api/countries', countriesRouter);
+})
+.catch(console.error);
 
-// app.use(express.json());
+app.use(express.json());
 
 app.listen(5000, function () {
   console.log(`Listening on port 5000`);
