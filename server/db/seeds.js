@@ -1059,7 +1059,7 @@ db.countries.insertMany([
                             "medals": {"gold": 0, "silver": 1, "bronze": 0}
                         },
         "about" : "Samoa, officially the Independent State of Samoa and until 1997 known as Western Samoa, is a Polynesian island country consisting of two main islands, two smaller, inhabited islands, and several smaller, uninhabited islands, including the Aleipata Islands.",
-        "officialLanguage": "Samoan",
+        "officialLanguage": "Samoan, English",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ws.svg",
