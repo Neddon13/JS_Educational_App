@@ -40,6 +40,7 @@ function Main() {
     return (
         <div>
             <CountryInfo playerCountry={playerCountry}/>
+            <hr></hr>
             <Game />
         </div>
     );
