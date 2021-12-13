@@ -1,8 +1,16 @@
-import logo from './logo.svg';
+import Main from './containers/Main';
 import './App.css';
 
 function App() {
-  return <h1>BBC Countries Trumps</h1>
+  return (
+    <>
+      <header>
+        <h1>BBC Countries Trumps</h1> 
+        <Main />
+      </header>
+    </>
+  
+  )
 }
 
 export default App;
