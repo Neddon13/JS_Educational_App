@@ -363,5 +363,368 @@
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:TeTuatahianui.jpg",
         "googleMap": "https://goo.gl/maps/xXiDQo65dwdpw9iu8"
     },
+
+    {
+        "name": "Brazil",
+        "officialName": "Federative Republic of Brazil",
+        "continent": "South America",
+        "capital": "Brasília",
+        "population": 212559409,
+        "currency": {
+                "officialName": "Brazilian real",
+                "symbol": "R$",
+                "name": "BRL"
+                 },
+        "areaKM": 8515767,
+        "highestPoint": {
+                        "tallestpointM": 2994,
+                        "location": "Pico da Neblina"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 150,
+                  "medals": {"gold": 37, "silver": 42, "bronze": 71}
+                  },
+        "about" : "Brazil, officially the Federative Republic of Brazil, is the largest country in both South America and Latin America. At 8.5 million square kilometers and with over 211 million people, Brazil is the world's fifth-largest country by area and the sixth most populous",
+        "officialLanguage": "Portuguese",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/br.svg",
+        "borderingCountries": ["Argentina","Bolivia", "Colombia", "French Guiana", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"],
+        "nationalAnimal": "Rufous-bellied thrush",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Turdus-rufiventris.jpg/800px-Turdus-rufiventris.jpg",
+        "googleMap": "https://goo.gl/maps/waCKk21HeeqFzkNC9"
+    },
+    
+    {
+        "name": "Argentina",
+        "officialName": "Argentine Republic",
+        "continent": "South America",
+        "capital": "Buenos Aires",
+        "population": 45376763,
+        "currency": {
+                "officialName": "Argentine peso",
+                "symbol": "$",
+                "name": "ARS"
+                 },
+        "areaKM": 2780400,
+        "highestPoint": {
+                        "tallestpointM": 6959,
+                        "location": "Aconcagua "
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 77,
+                  "medals": {"gold": 21, "silver": 26, "bronze": 30}
+                  },
+        "about" : "Argentina, officially the Argentine Republic, is a country in the southern half of South America. Argentina covers an area of 2,780,400 km², making it the largest Spanish-speaking nation in the world by area.",
+        "officialLanguage":"None (Spanish has de facto status)",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/ar.svg",
+        "borderingCountries": ["Bolivia","Brazil","Chile","Paraguay","Uruguay"],
+        "nationalAnimal": "	Rufous hornero",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg/300px-Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg",
+        "googleMap": "https://goo.gl/maps/Z9DXNxhf2o93kvyc6"
+    },
+    
+    {
+        "name": "Venezuela",
+        "officialName": "Bolivarian Republic of Venezuela",
+        "continent": "South America",
+        "capital": "Caracas",
+        "population": 28435943,
+        "currency": {
+                "officialName": "Venezuelan bolívar soberano",
+                "symbol": "Bs.S.",
+                "name": "VES"
+                 },
+        "areaKM": 916445,
+        "highestPoint": {
+                        "tallestpointM": 4978,
+                        "location": "Bolívar Peak"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 19,
+                  "medals": {"gold": 3, "silver": 7, "bronze": 9}
+                  },
+        "about" : "Venezuela is a country on the northern coast of South America with diverse natural attractions. Along its Caribbean coast are tropical resort islands including Isla de Margarita and the Los Roques archipelago. ",
+        "officialLanguage": "Spanish and Venezuelan Sign Language",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/ve.svg",
+        "borderingCountries": ["Brazil", "Colombia", "Guyana"],
+        "nationalAnimal": "Venezuelan troupial",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Curacao-Icterus-Icterus-2013.JPG/1591px-Curacao-Icterus-Icterus-2013.JPG",
+        "googleMap": "https://goo.gl/maps/KLCwDN8sec7z2kse9"
+    },
+    {
+        "name": "Suriname",
+        "officialName": "Republic of Suriname",
+        "continent": "South America",
+        "capital": "Paramaribo",
+        "population": 586634,
+        "currency": {
+                "officialName": "Surinamese dollar",
+                "symbol": "$",
+                "name": "SRD"
+                 },
+        "areaKM": 163820,
+        "highestPoint": {
+                        "tallestpointM": 1286,
+                        "location": "Julianatop"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 2,
+                  "medals": {"gold": 1, "silver": 0, "bronze": 1}
+                  },
+        "about" : "Suriname is a small country on the northeastern coast of South America. It's defined by vast swaths of tropical rainforest, Dutch colonial architecture and a melting-pot culture. ",
+        "officialLanguage": "Dutch",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/sr.svg",
+        "borderingCountries": ["Brazil", "French Guiana", "Guyana"],
+        "nationalAnimal": "Lesser Kiskadee",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lesser_kiskadee_%28Pitangus_lictor_panamense%29.jpg/440px-Lesser_kiskadee_%28Pitangus_lictor_panamense%29.jpg",
+        "googleMap": "https://goo.gl/maps/iy7TuQLSi4qgoBoG7"
+    },
+    {
+        "name": "Chile",
+        "officialName": "Republic of Chile",
+        "continent": "South America",
+        "capital": "Santiago",
+        "population": 19116209,
+        "currency": {
+                "officialName": "Chilean peso",
+                "symbol": "$",
+                "name": "CLP"
+                 },
+        "areaKM": 756102,
+        "highestPoint": {
+                        "tallestpointM": 6891,
+                        "location": "Nevado Ojos del Salado"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 13,
+                  "medals": {"gold": 2, "silver": 7, "bronze": 4}
+                  },
+        "about" : "Chile is a long, narrow country stretching along South America's western edge, with more than 6,000km of Pacific Ocean coastline.",
+        "officialLanguage": "None (Spanish has de facto status)",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/cl.svg",
+        "borderingCountries": ["Argentina", "Bolivia", "Peru"],
+        "nationalAnimal": "Huemul",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Huemul_verdadero.JPG",
+        "googleMap": "https://goo.gl/maps/XboxyNHh2fAjCPNn9"
+    },
+    {
+        "name": "Peru",
+        "officialName": "Republic of Peru",
+        "continent": "South America",
+        "capital": "Lima",
+        "population": 32971846,
+        "currency": {
+                "officialName": "Peruvian sol",
+                "symbol": "S/ ",
+                "name": "PEN"
+                 },
+        "areaKM": 1285216,
+        "highestPoint": {
+                        "tallestpointM": 6768,
+                        "location": "Huascarán."
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 4,
+                  "medals": {"gold": 1, "silver": 3, "bronze": 0}
+                  },
+        "about" : "Peru is home to a section of Amazon rainforest and Machu Picchu, an ancient Incan city high in the Andes mountains. The region around Machu Picchu, including the Sacred Valley, Inca Trail and colonial city of Cusco, is rich in archaeological sites. ",
+        "officialLanguage": "Spanish, Aymara, Quechua",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/pe.svg",
+        "borderingCountries": ["Bolivia","Brazil","Chile","Colombia","Ecuador"],
+        "nationalAnimal": "Vicuña",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vicunacrop.jpg",
+        "googleMap": "https://goo.gl/maps/uDWEUaXNcZTng1fP6"
+    },
+    {
+        "name": "Uganda",
+        "officialName": "Republic of Uganda",
+        "continent": "Africa",
+        "capital": "Kampala",
+        "population": 45741000,
+        "currency": {
+                "officialName": "Ugandan shilling",
+                "symbol": "Sh",
+                "name": "UGX"
+                 },
+        "areaKM": 241550,
+        "highestPoint": {
+                        "tallestpointM": 5094 ,
+                        "location": "Alexandra - Ruwenzori mountain range"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 11,
+                  "medals": {"gold": 4, "silver": 4, "bronze": 3}
+                  },
+        "about" : "Uganda is a landlocked country in East Africa whose diverse landscape encompasses the snow-capped Rwenzori Mountains and immense Lake Victoria. Its abundant wildlife includes chimpanzees as well as rare birds.",
+        "officialLanguage": "English, Swahili",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/ug.svg",
+        "borderingCountries": ["Democratic Republic of the Congo","Kenya","Rwanda","South Sudan","Tanzania"],
+        "nationalAnimal": "Grey crowned crane",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Balearica_regulorum_001.jpg/898px-Balearica_regulorum_001.jpg",
+        "googleMap": "https://goo.gl/maps/Y7812hFiGa8LD9N68",
+    },
+    {
+        "name": "Algeria",
+        "officialName": "People's Democratic Republic of Algeria",
+        "continent": "Africa",
+        "capital": "Algiers",
+        "population": 510713,
+        "currency": {
+                "officialName": "Algerian dinar",
+                "symbol": "د.ج",
+                "name": "DZD"
+                 },
+        "areaKM": 2381741,
+        "highestPoint": {
+                        "tallestpointM": 3003,
+                        "location": "Mount Tahat"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 17,
+                  "medals": {"gold": 5, "silver": 4, "bronze": 8}
+                  },
+        "about" : "Algeria is a North African country with a Mediterranean coastline and a Saharan desert interior. Many empires have left legacies here, such as the ancient Roman ruins in seaside Tipaza.",
+        "officialLanguage": "Arabic, Tamazight",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/dz.svg",
+        "borderingCountries": ["Tunisia","Libya","Niger","Western Sahara","Morocco","Mali","Mauritania"],
+        "nationalAnimal": "Fennec fox",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Fennec_Foxes.jpg",
+        "googleMap": "https://goo.gl/maps/RsAyAfyaiNVb8DpW8"
+    },
+    {
+        "name": "Angola",
+        "officialName": "Republic of Angola",
+        "continent": "Africa",
+        "capital": "Luanda",
+        "population": 32866268,
+        "currency": {
+                "officialName": "Angolan kwanza",
+                "symbol": "Kz",
+                "name": "AOA"
+                 },
+        "areaKM": 1246700,
+        "highestPoint": {
+                        "tallestpointM": 2620,
+                        "location": "Morro de Môco"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 0,
+                  "medals": {"gold": 0, "silver": 0, "bronze": 0}
+                  },
+        "about" : "Angola is a Southern African nation whose varied terrain encompasses tropical Atlantic beaches, a labyrinthine system of rivers and Sub-Saharan desert that extends across the border into Namibia.",
+        "officialLanguage": "Portuguese",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/ao.svg",
+        "borderingCountries": ["Republic of the Congo","Democratic Republic of the Congo","Zambia","Namibia"],
+        "nationalAnimal": "Red-crested turaco",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RedcrestedTuraco.jpg/1500px-RedcrestedTuraco.jpg",
+        "googleMap": "https://goo.gl/maps/q42Qbf1BmQL3fuZg9"
+    },
+    {
+        "name": "Egypt",
+        "officialName": "Arab Republic of Egypt",
+        "continent": "Africa",
+        "capital": "Cairo",
+        "population": 102334403,
+        "currency": {
+                "officialName": "Egyptian pound",
+                "symbol": "£",
+                "name": "EGP"
+                 },
+        "areaKM": 1002450,
+        "highestPoint": {
+                        "tallestpointM": 2642,
+                        "location": "Mount Kātrīnā"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 38,
+                  "medals": {"gold": 8, "silver": 11, "bronze": 19}
+                  },
+        "about" : "Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs.",
+        "officialLanguage": "Arabic",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/eg.svg",
+        "borderingCountries": ["Israel","Libya","Palestinian Territory","Sudan"],
+        "nationalAnimal": "Steppe Eagle ",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Steppe_Eagle_Portrait.jpg/1024px-Steppe_Eagle_Portrait.jpg",
+        "googleMap": "https://goo.gl/maps/uoDRhXbsqjG6L7VG7"
+    },
+    {
+        "name": "South Africa",
+        "officialName": "Republic of South Africa",
+        "continent": "Africa",
+        "capital": "Pretoria, Bloemfontein, Cape Town",
+        "population": 59308690,
+        "currency": {
+                "officialName": "South African rand",
+                "symbol": "R",
+                "name": "ZAR"
+                 },
+        "areaKM": 1221037,
+        "highestPoint": {
+                        "tallestpointM": 3482,
+                        "location": "Thabana Ntlenyana"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 89,
+                  "medals": {"gold": 27, "silver": 33, "bronze": 29}
+                  },
+        "about" : "South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems.",
+        "officialLanguage": "Afrikaans, English, Southern Ndebele, Sotho, Northern Sotho, Swazi, Tsonga, Tswana, Venda, Xhosa, Zulu",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/za.svg",
+        "borderingCountries": ["Botswana","Lesotho","Mozambique","Namibia","Eswatini","Zimbabwe"],
+        "nationalAnimal": "Springbok",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Springbok.JPG",
+        "googleMap": "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6"
+    },
+    {
+        "name": "Morocco",
+        "officialName": "Kingdom of Morocco",
+        "continent": "Africa",
+        "capital": "Rabat",
+        "population": 36910558,
+        "currency": {
+                "officialName": "Moroccan dirham",
+                "symbol": "د.م.",
+                "name": "MAD"
+                 },
+        "areaKM": 446550,
+        "highestPoint": {
+                        "tallestpointM": 4165,
+                        "location": "Mount Toubkal"
+                        },
+        "olympicMedals":{
+                  "totalMedalcount": 24,
+                  "medals": {"gold": 7, "silver": 5, "bronze": 12}
+                  },
+        "about" : "Morocco, a North African country bordering the Atlantic Ocean and Mediterranean Sea, is distinguished by its Berber, Arabian and European cultural influences. ",
+        "officialLanguage": "Arabic, Tamazight",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/ma.svg",
+        "borderingCountries": ["Algeria","Western Sahara","Spain"],
+        "nationalAnimal": "Barbary lion",
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/43/Barbary_lion.jpg",
+        "googleMap": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A"
+    },
   
 ]
