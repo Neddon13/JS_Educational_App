@@ -1,10 +1,10 @@
 import PlayerCard from "./PlayerCard";
 
-const Player = () => {
+const Player = ({playerCountry}) => {
     return (
         <div>
-            <h3>Your Country</h3>
-            <PlayerCard /> 
+            <h3>Your Card</h3>
+            <PlayerCard playerCountry={playerCountry}/> 
         </div>
     );
 }; 

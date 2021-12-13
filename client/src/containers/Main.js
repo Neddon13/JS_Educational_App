@@ -41,7 +41,7 @@ function Main() {
         <div>
             <CountryInfo playerCountry={playerCountry}/>
             <hr></hr>
-            <Game />
+            <Game playerCountry={playerCountry} computerCountry={computerCountry}/>
         </div>
     );
 };
