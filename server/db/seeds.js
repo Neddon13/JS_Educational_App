@@ -22,13 +22,12 @@ db.countries.insertMany([
                   "totalMedalcount": 917,
                   "medals": {"gold": 286, "silver": 316, "bronze": 315}
                   },
-        "About" : "The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe",
-        "GDP-dollars": 2708000000000,
+        "about" : "The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe",
         "officialLanguage": "English",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/gb.svg",
-        "borderingCountries": ["Ireland"],
+        "borderingCountries": "Ireland",
         "nationalAnimal": "Lion",
         "animalPhoto": "https://en.wikipedia.org/wiki/Lion#/media/File:Lion_waiting_in_Namibia.jpg",
         "googleMap": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA"
@@ -54,13 +53,12 @@ db.countries.insertMany([
                   "totalMedalcount": 761,
                   "medals": {"gold": 225, "silver": 257, "bronze": 279}
                   },
-        "About" : "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine",
-        "GDP-dollars": 2603000000000,
-        "officialLanguage": "",   
+        "about" : "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine",
+        "officialLanguage": "French",   
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/fr.svg",
-        "borderingCountries": ["Andorra", "Belgium", "Germany", "Italy", "Luxembourg", "Monaco", "Spain", "Switzerland"],
+        "borderingCountries": "Andorra, Belgium, Germany, Italy, Luxembourg, Monaco, Spain, Switzerland",
         "nationalAnimal": "The Gallic Rooster",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Coq-gaulois-dore.JPG",
         "googleMap": "https://goo.gl/maps/g7QxxSFsWyTPKuzd7"
@@ -85,12 +83,12 @@ db.countries.insertMany([
                   "totalMedalcount": 168,
                   "medals": {"gold": 48, "silver": 78, "bronze": 48}
                   },
-        "About" : "Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures",
+        "about" : "Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures",
         "officialLanguage": "Spanish",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/es.svg",
-        "borderingCountries": ["Andorra", "France", "Gibraltar", "Portugal", "Morocco"],
+        "borderingCountries": "Andorra, France, Gibraltar, Portugal, Morocco",
         "nationalAnimal": "Bull",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_animals_representing_first-level_administrative_country_subdivisions#/media/File:Toro_de_Osborne_(Llanes,_Asturias)_01.jpg",
         "googleMap": "https://goo.gl/maps/138JaXW8EZzRVitY9"
@@ -115,12 +113,12 @@ db.countries.insertMany([
                   "totalMedalcount": 618,
                   "medals": {"gold": 217, "silver": 188, "bronze": 213}
                   },
-        "About" : "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence",
+        "about" : "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence",
         "officialLanguage": "Italian",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/it.svg",
-        "borderingCountries": ["Austria", "France", "San Marino", "Slovenia", "Switzerland", "Vatican City"],
+        "borderingCountries": "Austria, France, San Marino, Slovenia, Switzerland, Vatican City",
         "nationalAnimal": "Italian Wolf",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Lupo_appenninico_3.jpg",
         "googleMap": "https://goo.gl/maps/8M1K27TDj7StTRTq8"
@@ -145,12 +143,12 @@ db.countries.insertMany([
                   "totalMedalcount": 653,
                   "medals": {"gold": 201, "silver": 206, "bronze": 246}
                   },
-        "About" : "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls",
+        "about" : "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls",
         "officialLanguage": "German",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/de.svg",
-        "borderingCountries": ["Austria", "Belgium", "Czech Republic", "Denmark", "France", "Luxembourg", "Netherlands", "Poland", "Switzerland"],
+        "borderingCountries": "Austria, Belgium, Czech Republic, Denmark, France, Luxembourg, Netherlands, Poland, Switzerland",
         "nationalAnimal": "Federal eagle",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_birds#/media/File:Aquila_chrysaetos_Flickr.jpg",
         "googleMap": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6"
@@ -175,12 +173,12 @@ db.countries.insertMany([
                   "totalMedalcount": 2632,
                   "medals": {"gold": 1061, "silver": 832, "bronze": 739}
                   },
-        "About" : "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking.",
+        "about" : "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking.",
         "officialLanguage": "English",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/us.svg",
-        "borderingCountries": ["Canada", "Mexico"],
+        "borderingCountries": "Canada, Mexico",
         "nationalAnimal": "Bald Eagle",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_birds#/media/File:Bald_eagle_closeup_16x9.jpg",
         "googleMap": "https://goo.gl/maps/e8M246zY4BSjkjAv6"
@@ -205,12 +203,12 @@ db.countries.insertMany([
                   "totalMedalcount": 73,
                   "medals": {"gold": 13, "silver": 24, "bronze": 36}
                   },
-        "About" : "Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico",
+        "about" : "Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico",
         "officialLanguage": "Spanish",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/mx.svg",
-        "borderingCountries": ["Belize", "Guatemala", "United States"],
+        "borderingCountries": "Belize, Guatemala, United States",
         "nationalAnimal": "Golden Eagle",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_birds#/media/File:GoldenEagle-Nova.jpg",
         "googleMap": "https://goo.gl/maps/s5g7imNPMDEePxzbA"
@@ -235,12 +233,12 @@ db.countries.insertMany([
                   "totalMedalcount": 326,
                   "medals": {"gold": 71, "silver": 108, "bronze": 147}
                   },
-        "About" : "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres, making it the world's second-largest country by total area",
+        "about" : "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres, making it the world's second-largest country by total area",
         "officialLanguage": "French",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ca.svg",
-        "borderingCountries": ["United States"],
+        "borderingCountries": "United States",
         "nationalAnimal": "North American beaver",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:American_Beaver.jpg",
         "googleMap": "https://goo.gl/maps/jmEVLugreeqiZXxbA"
@@ -265,12 +263,12 @@ db.countries.insertMany([
                   "totalMedalcount": 87,
                   "medals": {"gold": 26, "silver": 36, "bronze": 25}
                   },
-        "About" : "Jamaica, a Caribbean island nation, has a lush topography of mountains, rainforests and reef-lined beaches. Many of its all-inclusive resorts are clustered in Montego Bay, with its British-colonial architecture, and Negril, known for its diving and snorkeling sites. Jamaica is famed as the birthplace of reggae music, and its capital Kingston is home to the Bob Marley Museum, dedicated to the famous singer.",
+        "about" : "Jamaica, a Caribbean island nation, has a lush topography of mountains, rainforests and reef-lined beaches. Many of its all-inclusive resorts are clustered in Montego Bay, with its British-colonial architecture, and Negril, known for its diving and snorkeling sites. Jamaica is famed as the birthplace of reggae music, and its capital Kingston is home to the Bob Marley Museum, dedicated to the famous singer.",
         "officialLanguage": "English",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/jm.svg",
-        "borderingCountries": 0,
+        "borderingCountries": "This country does not border any countries",
         "nationalAnimal": "Red-Billed streamertail",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Red-billed_Streamertail_2506104129.jpg",
         "googleMap": "https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A"
@@ -295,12 +293,12 @@ db.countries.insertMany([
                   "totalMedalcount": 1,
                   "medals": {"gold": 0, "silver": 1, "bronze": 0}
                   },
-        "About" : "Guatemala, a Central American country south of Mexico, is home to volcanoes, rainforests and ancient Mayan sites. The capital, Guatemala City, features the stately National Palace of Culture and the National Museum of Archaeology and Ethnology. Antigua, west of the capital, contains preserved Spanish colonial buildings. Lake Atitlán, formed in a massive volcanic crater, is surrounded by coffee fields and villages.",
+        "about" : "Guatemala, a Central American country south of Mexico, is home to volcanoes, rainforests and ancient Mayan sites. The capital, Guatemala City, features the stately National Palace of Culture and the National Museum of Archaeology and Ethnology. Antigua, west of the capital, contains preserved Spanish colonial buildings. Lake Atitlán, formed in a massive volcanic crater, is surrounded by coffee fields and villages.",
         "officialLanguage": "Spanish",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/gt.svg",
-        "borderingCountries": ["Belize", "El Salvador", "Honduras", "Mexico"],
+        "borderingCountries": "Belize, El Salvador, Honduras, Mexico",
         "nationalAnimal": "Quetzal",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Quetzal01.jpg",
         "googleMap": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA"
@@ -325,12 +323,12 @@ db.countries.insertMany([
                   "totalMedalcount": 0,
                   "medals": {"gold": 0, "silver": 0, "bronze": 0}
                   },
-        "About" : "Southern Region is one of four regions of Papua New Guinea. The region includes the national capital Port Moresby",
+        "about" : "Southern Region is one of four regions of Papua New Guinea. The region includes the national capital Port Moresby",
         "officialLanguage": "English",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/pg.svg",
-        "borderingCountries": ["Indonesia"],
+        "borderingCountries": "Indonesia",
         "nationalAnimal": "Dugong",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Dugong_Marsa_Alam.jpg",
         "googleMap": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A"
@@ -355,12 +353,12 @@ db.countries.insertMany([
                   "totalMedalcount": 137,
                   "medals": {"gold": 53, "silver": 33, "bronze": 51}
                   },
-        "About" : "New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island and the South Island —and over 700 smaller islands.",
+        "about" : "New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island and the South Island —and over 700 smaller islands.",
         "officialLanguage": "English",
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/nz.svg",
-        "borderingCountries": 0,
+        "borderingCountries": "This country does not border any countries",
         "nationalAnimal": "Kiwi",
         "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:TeTuatahianui.jpg",
         "googleMap": "https://goo.gl/maps/xXiDQo65dwdpw9iu8"
@@ -391,7 +389,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/br.svg",
-        "borderingCountries": ["Argentina","Bolivia", "Colombia", "French Guiana", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"],
+        "borderingCountries": "Argentina, Bolivia, Colombia, French Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela",
         "nationalAnimal": "Rufous-bellied thrush",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Turdus-rufiventris.jpg/800px-Turdus-rufiventris.jpg",
         "googleMap": "https://goo.gl/maps/waCKk21HeeqFzkNC9"
@@ -422,7 +420,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ar.svg",
-        "borderingCountries": ["Bolivia","Brazil","Chile","Paraguay","Uruguay"],
+        "borderingCountries": "Bolivia, Brazil, Chile, Paraguay, Uruguay",
         "nationalAnimal": "	Rufous hornero",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg/300px-Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg",
         "googleMap": "https://goo.gl/maps/Z9DXNxhf2o93kvyc6"
@@ -453,7 +451,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ve.svg",
-        "borderingCountries": ["Brazil", "Colombia", "Guyana"],
+        "borderingCountries": "Brazil, Colombia, Guyana",
         "nationalAnimal": "Venezuelan troupial",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Curacao-Icterus-Icterus-2013.JPG/1591px-Curacao-Icterus-Icterus-2013.JPG",
         "googleMap": "https://goo.gl/maps/KLCwDN8sec7z2kse9"
@@ -483,7 +481,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/sr.svg",
-        "borderingCountries": ["Brazil", "French Guiana", "Guyana"],
+        "borderingCountries": "Brazil, French Guiana, Guyana",
         "nationalAnimal": "Lesser Kiskadee",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lesser_kiskadee_%28Pitangus_lictor_panamense%29.jpg/440px-Lesser_kiskadee_%28Pitangus_lictor_panamense%29.jpg",
         "googleMap": "https://goo.gl/maps/iy7TuQLSi4qgoBoG7"
@@ -513,7 +511,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/cl.svg",
-        "borderingCountries": ["Argentina", "Bolivia", "Peru"],
+        "borderingCountries": "Argentina, Bolivia, Peru",
         "nationalAnimal": "Huemul",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Huemul_verdadero.JPG",
         "googleMap": "https://goo.gl/maps/XboxyNHh2fAjCPNn9"
@@ -543,7 +541,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/pe.svg",
-        "borderingCountries": ["Bolivia","Brazil","Chile","Colombia","Ecuador"],
+        "borderingCountries": "Bolivia, Brazil, Chile, Colombia, Ecuador",
         "nationalAnimal": "Vicuña",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vicunacrop.jpg",
         "googleMap": "https://goo.gl/maps/uDWEUaXNcZTng1fP6"
@@ -573,7 +571,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ug.svg",
-        "borderingCountries": ["Democratic Republic of the Congo","Kenya","Rwanda","South Sudan","Tanzania"],
+        "borderingCountries": "Democratic Republic of the Congo, Kenya, Rwanda, South Sudan, Tanzania",
         "nationalAnimal": "Grey crowned crane",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Balearica_regulorum_001.jpg/898px-Balearica_regulorum_001.jpg",
         "googleMap": "https://goo.gl/maps/Y7812hFiGa8LD9N68",
@@ -603,7 +601,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/dz.svg",
-        "borderingCountries": ["Tunisia","Libya","Niger","Western Sahara","Morocco","Mali","Mauritania"],
+        "borderingCountries": "Tunisia , Libya, Niger, Western Sahara, Morocco, Mali and Mauritania",
         "nationalAnimal": "Fennec fox",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Fennec_Foxes.jpg",
         "googleMap": "https://goo.gl/maps/RsAyAfyaiNVb8DpW8"
@@ -633,7 +631,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ao.svg",
-        "borderingCountries": ["Republic of the Congo","Democratic Republic of the Congo","Zambia","Namibia"],
+        "borderingCountries": "Republic of the Congo, Democratic Republic of the Congo, Zambia and Namibia",
         "nationalAnimal": "Red-crested turaco",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RedcrestedTuraco.jpg/1500px-RedcrestedTuraco.jpg",
         "googleMap": "https://goo.gl/maps/q42Qbf1BmQL3fuZg9"
@@ -663,7 +661,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/eg.svg",
-        "borderingCountries": ["Israel","Libya","Palestinian Territory","Sudan"],
+        "borderingCountries": "Israel, Libya, Palestinian Territory, Sudan",
         "nationalAnimal": "Steppe Eagle ",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Steppe_Eagle_Portrait.jpg/1024px-Steppe_Eagle_Portrait.jpg",
         "googleMap": "https://goo.gl/maps/uoDRhXbsqjG6L7VG7"
@@ -693,7 +691,7 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/za.svg",
-        "borderingCountries": ["Botswana","Lesotho","Mozambique","Namibia","Eswatini","Zimbabwe"],
+        "borderingCountries": "Botswana, Lesotho, Mozambique, Namibia, Eswatini and Zimbabwe",
         "nationalAnimal": "Springbok",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Springbok.JPG",
         "googleMap": "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6"
@@ -723,10 +721,382 @@ db.countries.insertMany([
         "independent": true,
         "unMember": true,
         "flag": "https://flagcdn.com/ma.svg",
-        "borderingCountries": ["Algeria","Western Sahara","Spain"],
+        "borderingCountries": "Algeria, Western Sahara and Spain",
         "nationalAnimal": "Barbary lion",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/43/Barbary_lion.jpg",
         "googleMap": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A"
     },
-  
+    {
+        "name": "Indonesia",
+        "officialName": "Republic of Indonesia",
+        "continent": "Asia",
+        "capital": "Jakarta",
+        "population": 273523621,
+        "currency": {
+                        "officialName": "Indonesian rupiah",
+                        "symbol": "Rp",
+                        "name": "IDR"
+                    },
+        "areaKM": 1904569,
+        "highestPoint": {
+                            "tallestpointM": 4884,
+                            "location": "Puncak Jaya"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 37,
+                            "medals": {"gold": 8, "silver": 14, "bronze": 15 }
+                        },
+        "about" : "Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over seventeen thousand islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea.",
+        "officialLanguage": "Indonesian",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/id.svg",
+        "borderingCountries": "Papua New Guinea, Malaysia and Timor-Leste",
+        "nationalAnimal": "Komodo dragon",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis).jpg",
+        "googleMap": "https://goo.gl/maps/9gfPupm5bffixiFJ6"
+    },
+    
+    {
+        "name": "Cambodia",
+        "officialName": "Kingdom of Cambodia",
+        "continent": "Asia",
+        "capital": "Phnom Penh",
+        "population": 16718971,
+        "currency": {
+                        "officialName": "Cambodian riel",
+                        "symbol": "៛",
+                        "name": "KHR"
+                    },
+        "areaKM": 181035,
+        "highestPoint": {
+                            "tallestPointM": 1813,
+                            "location": "Mount Aôral"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 0,
+                            "medals": {"gold": 0, "silver": 0, "bronze": 0 }
+                        },
+        "about" : "Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Phnom Penh, its capital, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest are the ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire.",
+        "officialLanguage": "Khmer",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/kh.svg",
+        "borderingCountries": "Laos, Thailand and Vietnam",
+        "nationalAnimal": "Kouprey",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Saen_Monourom_Mondul_Kiri_Cambodia_crop.jpg",
+        "googleMap": "https://goo.gl/maps/nztQtFSrUXZymJaW8"           
+                
+    },
+    
+    {
+        "name": "Taiwan",
+        "officialName": "Republic of China (Taiwan)",
+        "continent": "Asia",
+        "capital": "Taipei",
+        "population": 23503349,
+        "currency": {
+                        "officialName": "New Taiwan dollar",
+                        "symbol": "$",
+                        "name": "TWD"
+                    },
+        "areaKM": 36193,
+        "highestPoint": {
+                            "tallestPointM": 3952,
+                            "location": "Yushan"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 36,
+                            "medals": {"gold": 7, "silver": 11, "bronze": 18 }
+                        },
+        "about" : "Taiwan, officially the Republic of China, is a country in East Asia. It shares maritime borders with the People's Republic of China to the northwest, Japan to the northeast, and the Philippines to the south.",
+        "officialLanguage": "Chinese",
+        "independent": false,
+        "unMember": false,
+        "flag": "https://flagcdn.com/tw.svg",
+        "borderingCountries": "This Country does not border any Countries",
+        "nationalAnimal": "Formosan black bear(unofficial)",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Formosan_Black_Bear.JPG",
+        "googleMap": "https://goo.gl/maps/HgMKFQjNadF3Wa6B6"
+        
+    },
+    
+    {
+        "name": "India",
+        "officialName": "Republic of India",
+        "continent": "Asia",
+        "capital": "New Delhi",
+        "population": 1380004385,
+        "currency": {
+                        "officialName": "Indian rupee",
+                        "symbol": "₹",
+                        "name": "INR"
+                     },
+        "areaKM": 3287590,
+        "highestPoint": {
+                            "tallestpointM": 8586,
+                            "location": "Kangchenjunga"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 35,
+                            "medals": {"gold": 10, "silver": 9, "bronze": 16}
+                        },
+        "about" : "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.",
+        "officialLanguage": "Hindi",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/in.svg",
+        "borderingCountries": "Bangladesh, Bhutan, Myanmar(Burma), China, Nepal and Pakistan",
+        "nationalAnimal": "Tiger",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Panthera_tigris_tigris.jpg",
+        "googleMap": "https://goo.gl/maps/WSk3fLwG4vtPQetp7"
+    },
+    
+    {
+        "name": "Singapore",
+        "officialName": "Republic of Singapore",
+        "continent": "Asia",
+        "capital": "Singapore",
+        "population": 5685807,
+        "currency": {
+                        "officialName": "Singapore dollar",
+                        "symbol": "$",
+                        "name": "SGD"
+                     },
+        "areaKM": 710,
+        "highestPoint": {
+                            "tallestpointM": 163.63,
+                            "location": "Bukit Timah Hill"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 5,
+                            "medals": {"gold": 1, "silver": 2, "bronze": 2}
+                        },
+        "about" : "Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.",
+        "officialLanguage": "Malay",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/sg.svg",
+        "borderingCountries": "Malaysia and Indonesia",
+        "nationalAnimal": "Lion",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Lion_d%27Afrique.jpg",
+        "googleMap": "https://goo.gl/maps/QbQt9Y9b5KFzsahV6"
+    },
+    
+    {
+        "name": "Hong Kong",
+        "officialName": "Hong Kong Special Administrative Region of the People's Republic of China",
+        "continent": "Asia",
+        "capital": "City of Victoria",
+        "population": 7500700,
+        "currency": {
+                        "officialName": "Hong Kong dollar",
+                        "symbol": "$",
+                        "name": "HKD"
+                     },
+        "areaKM": 1104,
+        "highestPoint": {
+                            "tallestpointM": 957,
+                            "location": "Tai Mo Shan"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 9,
+                            "medals": {"gold": 2, "silver": 3, "bronze": 4}
+                        },
+        "about" : "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in South China.",
+        "officialLanguage": "Chinese",
+        "independent": false,
+        "unMember": false,
+        "flag": "https://flagcdn.com/hk.svg",
+        "borderingCountries": "China",
+        "nationalAnimal": "Giant Panda",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Grosser_Panda.JPG",
+        "googleMap": "https://goo.gl/maps/1sEnNmT47ffrC8MU8"
+    },
+    
+    {
+        "name": "Japan",
+        "officialName": "Japan",
+        "continent": "Asia",
+        "capital": "Tokyo",
+        "population": 125836021,
+        "currency": {
+                        "officialName": "Japanese yen",
+                        "symbol": "¥",
+                        "name": "JPY"
+                     },
+        "areaKM": 377930,
+        "highestPoint": {
+                            "tallestpointM": 3776,
+                            "location": "Mount Fuji"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 497,
+                            "medals": {"gold": 169, "silver": 150, "bronze": 178}
+                        },
+        "about" : "Japan is an island country in East Asia, located in the northwest Pacific Ocean. It is bordered on the west by the Sea of Japan, and extends from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south.",
+        "officialLanguage": "Japanese",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/jp.svg",
+        "borderingCountries": "South Korea",
+        "nationalAnimal": "Japanese macaque",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Japanese_Snow_Monkey_(Macaque)_Mother_Grooms_Her_Young.jpg",
+        "googleMap": "https://goo.gl/maps/NGTLSCSrA8bMrvnX9"
+    },
+    
+    {
+        "name": "South Korea",
+        "officialName": "Republic of Korea",
+        "continent": "Asia",
+        "capital": "Seoul",
+        "population": 51780579,
+        "currency": {
+                        "officialName": "South Korean won",
+                        "symbol": "₩",
+                        "name": "KRW"
+                     },
+        "areaKM": 100210,
+        "highestPoint": {
+                            "tallestpointM": 1950,
+                            "location": "Hallasan"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 287,
+                            "medals": {"gold": 96, "silver": 91, "bronze": 100}
+                        },
+        "about" : "South Korea, an East Asian nation on the southern half of the Korean Peninsula, shares one of the world’s most heavily militarized borders with North Korea. It’s equally known for its green, hilly countryside dotted with cherry trees and centuries-old Buddhist temples, plus its coastal fishing villages, sub-tropical islands and high-tech cities such as Seoul, the capital.",
+        "officialLanguage": "Korean",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/kr.svg",
+        "borderingCountries": "North Korea",
+        "nationalAnimal": "The Siberian tiger",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:P.t.altaica_Tomak_Male.jpg",
+        "googleMap": "https://goo.gl/maps/7ecjaJXefjAQhxjGA"
+    },
+    
+    {
+        "name": "Australia",
+        "officialName": "Commonwealth of Australia",
+        "continent": "Oceania",
+        "capital": "Canberra",
+        "population": 25687041,
+        "currency": {
+                        "officialName": "Australian dollar",
+                        "symbol": "$",
+                        "name": "AUD"
+                     },
+        "areaKM": 7692024,
+        "highestPoint": {
+                            "tallestpointM": 2228,
+                            "location": "Mount Kosciuszko"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 547,
+                            "medals": {"gold": 164, "silver": 173, "bronze": 210}
+                        },
+        "about" : "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country by area in Oceania and the world's sixth-largest country.",
+        "officialLanguage": "English",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/au.svg",
+        "borderingCountries": "This Country does not border any Countries",
+        "nationalAnimal": "Red Kangaroo",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Red_kangaroo_-_melbourne_zoo.jpg",
+        "googleMap": "https://goo.gl/maps/DcjaDa7UbhnZTndH6"
+    },
+    
+    {
+        "name": "Fiji",
+        "officialName": "Republic of Fiji",
+        "continent": "Oceania",
+        "capital": "Suva",
+        "population": 896444,
+        "currency": {
+                        "officialName": "Fijian dollar",
+                        "symbol": "$",
+                        "name": "FJD"
+                     },
+        "areaKM": 18272,
+        "highestPoint": {
+                            "tallestpointM": 1324,
+                            "location": "Tomanivi"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 3,
+                            "medals": {"gold": 2, "silver": 0, "bronze": 1}
+                        },
+        "about" : "Fiji, a country in the South Pacific, is an archipelago of more than 300 islands. It's famed for rugged landscapes, palm-lined beaches and coral reefs with clear lagoons. Its major islands, Viti Levu and Vanua Levu, contain most of the population. Viti Levu is home to the capital, Suva, a port city with British colonial architecture. The Fiji Museum, in the Victorian-era Thurston Gardens, has ethnographic exhibits.",
+        "officialLanguage": "English, Fijian, Hindi",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/fj.svg",
+        "borderingCountries": "This Country does not border any Countries",
+        "nationalAnimal": "Collared Lory",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Collared_Lories_taveuni_june2008.JPG",
+        "googleMap": "https://goo.gl/maps/r9fhDqoLZdg1zmE99"
+    },
+    
+    {
+        "name": "Samoa",
+        "officialName": "Independent State of Samoa",
+        "continent": "Oceania",
+        "capital": "Apia",
+        "population": 198410,
+        "currency": {
+                        "officialName": "Samoan tālā",
+                        "symbol": "T",
+                        "name": "WST"
+                     },
+        "areaKM": 2842,
+        "highestPoint": {
+                            "tallestpointM": 1858,
+                            "location": "Mount Silisili"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 1,
+                            "medals": {"gold": 0, "silver": 1, "bronze": 0}
+                        },
+        "about" : "Samoa, officially the Independent State of Samoa and until 1997 known as Western Samoa, is a Polynesian island country consisting of two main islands, two smaller, inhabited islands, and several smaller, uninhabited islands, including the Aleipata Islands.",
+        "officialLanguage": "Samoan",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/ws.svg",
+        "borderingCountries": "This Country does not border any Countries",
+        "nationalAnimal": "Humpback whale",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Humpback_Whale_underwater_shot.jpg",
+        "googleMap": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9"
+    },
+    
+    {
+        "name": "Tonga",
+        "officialName": "Kingdom of Tonga",
+        "continent": "Oceania",
+        "capital": "Nuku'alofa",
+        "population": 105697,
+        "currency": {
+                        "officialName": "Tongan paʻanga",
+                        "symbol": "T$",
+                        "name": "TOP"
+                     },
+        "areaKM": 747,
+        "highestPoint": {
+                            "tallestpointM": 1033,
+                            "location": "Kao Island"
+                        },
+        "olympicMedals":{
+                            "totalMedalcount": 1,
+                            "medals": {"gold": 0, "silver": 1, "bronze": 0}
+                        },
+        "about" : "Tonga is a Polynesian kingdom of more than 170 South Pacific islands, many uninhabited, most lined in white beaches and coral reefs and covered with tropical rainforest. The main island, Tongatapu, is protected by lagoons and limestone cliffs. It’s home to the rural capital of Nuku'alofa, as well as beach resorts, plantations and the Ha'amonga ʻa Maui, a monumental coral gate from the 1200s.",
+        "officialLanguage": "Tongan",
+        "independent": true,
+        "unMember": true,
+        "flag": "https://flagcdn.com/to.svg",
+        "borderingCountries": "This Country does not border any Countries",
+        "nationalAnimal": "Radiated tortoise",
+        "animalPhoto": "https://en.wikipedia.org/wiki/File:Radiated_tortoise_(Astrochelys_radiata)_Tsimanampetsotsa.jpg",
+        "googleMap": "https://goo.gl/maps/p5YALBY2QdEzswRo7"
+    }, 
 ]);

@@ -1,10 +1,12 @@
-
+import CountryInfo from "../components/CountryInfo";
+import Game from "../components/Game";
 
 function Main() {
 
     return (
         <div>
-            Countries top trumps
+            <CountryInfo />
+            <Game />
         </div>
     );
 };
