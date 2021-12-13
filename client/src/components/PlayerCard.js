@@ -15,7 +15,7 @@ const PlayerCard = ({playerCountry}) => {
             <table>
                 <tr>
                     <td>Population</td>
-                    <td>{playerCountry.population}</td>
+                    <td>{playerCountry.population}MM</td>
                 </tr>
                 <tr>
                     <td>Area</td>
