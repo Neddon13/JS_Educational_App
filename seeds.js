@@ -1,4 +1,6 @@
-[
+use countries_api;
+db.dropDatabase();
+db.countries.insertMany([
      
     {
         "name": "United Kingdom",
@@ -727,4 +729,4 @@
         "googleMap": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A"
     },
   
-]
+]);
