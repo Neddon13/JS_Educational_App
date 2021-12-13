@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import Main from './containers/Main';
 import './App.css';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
       <header>
         <h1>BBC Countries Trumps</h1> 
+        <Main />
       </header>
     </>
   
