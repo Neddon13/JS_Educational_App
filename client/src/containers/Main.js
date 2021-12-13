@@ -39,7 +39,7 @@ function Main() {
 
     return (
         <div>
-            <CountryInfo />
+            <CountryInfo playerCountry={playerCountry}/>
             <Game />
         </div>
     );
