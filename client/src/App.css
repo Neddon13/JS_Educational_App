@@ -19,6 +19,51 @@
   margin-right: 100px;
 }
 
+.player-div {
+  width: 300px;
+}
+
+.computer-div {
+  width: 300px;
+}
+
+.card {
+  width: 230px;
+  height: 350px;
+  border: 7px groove orange;
+  background-color: #87cefa	;
+  border-radius: 10px;
+  /* text-align: center; */
+}
+
+.card table {
+  margin-top: 15px;
+  border: 1px solid white;
+}
+
+.card table td {
+  padding: 3px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: #9acd32	;
+}
+
+.card h3 {
+  text-align: center;
+  background-color: orchid;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* .game-background {
 
     width: 600px;
