@@ -4,12 +4,12 @@ import Computer from "./Computer";
 import Score from "./Score";
 import globe from "../media/globe.mp4"
 
-const Game = ({playerCountry, computerCountry}) => {
+const Game = ({playerCountry, computerCountry, handleRound}) => {
     const [playerChoice, setPlayerChoice] = useState(null);
     const [computerValue, setComputerValue] = useState(null);
-    const [winner, setWinner] = useState("")
     const [playerScore, setPlayerScore] = useState(0)
     const [computerScore, setComputerScore] = useState(0)
+    const [winner, setWinner] = useState("")
 
     const handleChoice = (choice) => {
         setPlayerChoice(playerCountry[choice]);
@@ -19,12 +19,13 @@ const Game = ({playerCountry, computerCountry}) => {
     const handleClick = () => {
         if (playerChoice > computerValue) {
             setWinner("Player")
-            setPlayerScore(playerScore + 1)       
+            setPlayerScore(playerScore + 1)  
+            handleRound()     
         } else {
             setWinner("Computer");
             setComputerScore(computerScore + 1)
+            handleRound()
         }
-        
     };
 
 
