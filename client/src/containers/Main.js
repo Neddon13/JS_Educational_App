@@ -38,9 +38,8 @@ function Main() {
     };
 
     return (
-        <div>
+        <div className='container'>
             <CountryInfo playerCountry={playerCountry}/>
-            <hr></hr>
             <Game playerCountry={playerCountry} computerCountry={computerCountry}/>
         </div>
     );

@@ -6,9 +6,9 @@ const ComputerCard = ({computerCountry}) => {
         )
     };
     return (
-        <div>
+        <div className='card' id='computer-card'>
             <h3>{computerCountry.name}</h3>
-            <img src={computerCountry.flag} alt={computerCountry.name} style={{width:"180px", height:"120px"}} />
+            <img src={computerCountry.landmark} alt={computerCountry.name} style={{width:"180px", height:"120px"}} />
             <table>
                 <tr>
                     <td>Population</td>
@@ -32,3 +32,7 @@ const ComputerCard = ({computerCountry}) => {
 }; 
 
 export default ComputerCard;
+
+
+ 
+    
