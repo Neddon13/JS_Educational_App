@@ -32,3 +32,7 @@ const ComputerCard = ({computerCountry}) => {
 }; 
 
 export default ComputerCard;
+
+
+ 
+    
