@@ -3,7 +3,6 @@ import {useState, useEffect} from "react";
 
 const PlayerCard = ({playerCountry, handleChoice}) => {
 
-    const [selectedData, setSelectedData] = useState("");
 
     if (!playerCountry.highestPoint) {
         return (
@@ -12,8 +11,7 @@ const PlayerCard = ({playerCountry, handleChoice}) => {
     };
 
     const handleSelectChange = event => {
-        setSelectedData(event.target.value)
-        handleChoice(selectedData)
+        handleChoice(event.target.value)
     };
 
     return (
