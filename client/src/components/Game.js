@@ -7,9 +7,11 @@ const Game = ({playerCountry, computerCountry}) => {
             Game goes here 
             <Player playerCountry={playerCountry}/>
             <Computer computerCountry={computerCountry}/>
-            {/* <video className="game-background" autoplay loop muted poster="https://image.shutterstock.com/image-vector/planet-earth-world-globe-oceans-260nw-710617870.jpg">
-            <source src="https://thumbs.dreamstime.com/videothumb_large4720/47209559.mp4" type="video/mp4"/>
-            </video> */}
+            <video
+             autoPlay loop muted style ={{  position: "absolute", width: "100%", left: "50%", top: "50%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%)", zIndex: "-1"}}
+            >
+            <source src="https://ak.picdn.net/shutterstock/videos/1938247/preview/stock-footage-a-cartoon-spinning-earth-this-animation-is-a-seamless-loop.webm" type="video/mp4"/>
+            </video>
         </div>
     );
 };

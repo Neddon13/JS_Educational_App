@@ -10,10 +10,14 @@
   overflow: scroll;
 }
 
+.country-info img {
+  border: 1px solid black;
+}
+
 .game-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   border: 1px solid black;
   width: 900px;
   margin-right: 100px;
@@ -21,19 +25,25 @@
 
 .player-div {
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
 }
 
 .computer-div {
   width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
 }
 
 .card {
   width: 230px;
   height: 350px;
   border: 7px groove orange;
-  background-color: #87cefa	;
+  background-color: #f5f5f5	;
   border-radius: 10px;
-  /* text-align: center; */
+  margin-top: 10px;
 }
 
 .card table {
@@ -46,16 +56,16 @@
 }
 
 tr:nth-child(even) {
-  background-color: grey;
+  background-color: #ffa500;
 }
 
 tr:nth-child(odd) {
-  background-color: #9acd32	;
+  background-color: #dda0dd;
 }
 
 .card h3 {
   text-align: center;
-  background-color: orchid;
+  background-color: #ffa500;
 }
 
 .card img {
