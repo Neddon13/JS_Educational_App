@@ -1,7 +1,9 @@
+import {useState, useEffect} from "react";
 
 
+const PlayerCard = ({playerCountry, handleChoice}) => {
 
-const PlayerCard = ({playerCountry}) => {
+    const [selectedData, setSelectedData] = useState("");
 
     if (!playerCountry.highestPoint) {
         return (
@@ -10,10 +12,12 @@ const PlayerCard = ({playerCountry}) => {
     };
 
     const handleSelectChange = event => {
-        console.log(event.target.value);
+        setSelectedData(event.target.value)
+        handleChoice(selectedData)
     };
 
     return (
+        
         <div className='card'>
             <h3>{playerCountry.name}</h3>
             <img src={playerCountry.landmark} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
