@@ -20,11 +20,11 @@ const ComputerCard = ({computerCountry}) => {
                 </tr>
                 <tr>
                     <td>Hightest Point</td>
-                    <td>{computerCountry.highestPoint.tallestpointM}m</td>
+                    <td>{computerCountry.highestPointMetres}m</td>
                 </tr>
                 <tr>
                     <td>Olympic Medals</td>
-                    <td>{computerCountry.olympicMedals.totalMedalcount}</td>
+                    <td>{computerCountry.olympicMedalsTotal}</td>
                 </tr>
             </table>
         </div>

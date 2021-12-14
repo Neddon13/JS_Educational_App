@@ -14,14 +14,12 @@ db.countries.insertMany([
                 "name": "GBP"
                  },
         "areaKM": 242495,
-        "highestPoint": {
-                        "tallestpointM": 1343,
-                        "location": "Ben Nevis"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 917,
-                  "medals": {"gold": 286, "silver": 316, "bronze": 315}
-                  },
+        "highestPoint": "Ben Nevis",
+        "highestPointMetres": 1343,
+        "olympicMedalsTotal": 917,
+        "goldMedals": 286, 
+        "silverMedals": 316, 
+        "bronzeMedals": 315,
         "about" : "The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe",
         "officialLanguage": "English",
         "independent": "Yes",
@@ -46,14 +44,12 @@ db.countries.insertMany([
                 "name": "Euro"
                  },
         "areaKM": 547660 ,
-        "highestPoint": {
-                        "tallestpointM": 4810,
-                        "location": "Mont Blanc"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 761,
-                  "medals": {"gold": 225, "silver": 257, "bronze": 279}
-                  },
+        "highestPoint": "Mont Blanc",
+        "highestPointMetres": 4810,
+        "olympicMedalsTotal": 761,
+        "goldMedals": 225, 
+        "silverMedals": 257, 
+        "bronzeMedals": 279,
         "about" : "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine",
         "officialLanguage": "French",   
         "independent": "Yes",
@@ -78,14 +74,12 @@ db.countries.insertMany([
                 "name": "Euro"
                  },
         "areaKM": 505992,
-        "highestPoint": {
-                        "tallestpointM": 3479,
-                        "location": "Mulhacen"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 168,
-                  "medals": {"gold": 48, "silver": 78, "bronze": 48}
-                  },
+        "highestPoint": "Mulhacen",
+        "highestPointMetres": 3479,
+        "olympicMedalsTotal": 168,
+        "goldMedals": 48, 
+        "silverMedals": 78, 
+        "bronzeMedals": 48,
         "about" : "Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography and cultures",
         "officialLanguage": "Spanish",
         "independent": "Yes",
@@ -109,14 +103,12 @@ db.countries.insertMany([
                 "name": "Euro"
                  },
         "areaKM": 301336,
-        "highestPoint": {
-                        "tallestpointM": 4810,
-                        "location": "Monte Bianco"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 618,
-                  "medals": {"gold": 217, "silver": 188, "bronze": 213}
-                  },
+        "highestPoint": "Monte Bianco",
+        "highestPointMetres": 4810,
+        "olympicMedalsTotal": 618,
+        "goldMedals": 217, 
+        "silverMedals": 188, 
+        "bronzeMedals": 213,
         "about" : "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence",
         "officialLanguage": "Italian",
         "independent": "Yes",
@@ -140,14 +132,12 @@ db.countries.insertMany([
                 "name": "Euro"
                  },
         "areaKM": 357114,
-        "highestPoint": {
-                        "tallestpointM": 2962,
-                        "location": "The Zugspitze"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 653,
-                  "medals": {"gold": 201, "silver": 206, "bronze": 246}
-                  },
+        "highestPoint": "The Zugspitze",
+        "highestPointMetres": 2962,
+        "olympicMedalsTotal": 653,
+        "goldMedals": 201, 
+        "silverMedals": 206, 
+        "bronzeMedals": 246,
         "about" : "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls",
         "officialLanguage": "German",
         "independent": "Yes",
@@ -171,14 +161,12 @@ db.countries.insertMany([
                 "name": "USD"
                  },
         "areaKM": 9372610,
-        "highestPoint": {
-                        "tallestpointM": 6190,
-                        "location": "Denali"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 2632,
-                  "medals": {"gold": 1061, "silver": 832, "bronze": 739}
-                  },
+        "highestPoint": "Denali",
+        "highestPointMetres": 6190,
+        "olympicMedalsTotal": 2632,
+        "goldMedals": 1061, 
+        "silverMedals": 832, 
+        "bronzeMedals": 739,
         "about" : "The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking.",
         "officialLanguage": "English",
         "independent": "Yes",
@@ -202,14 +190,12 @@ db.countries.insertMany([
                 "name": "MXN"
                  },
         "areaKM": 1964375,
-        "highestPoint": {
-                        "tallestpointM": 5675,
-                        "location": "Pico de Orizaba"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 73,
-                  "medals": {"gold": 13, "silver": 24, "bronze": 36}
-                  },
+        "highestPoint": "Pico de Orizaba",
+        "highestPointMetres": 5675,
+        "olympicMedalsTotal": 73,
+        "goldMedals": 13, 
+        "silverMedals": 24, 
+        "bronzeMedals": 36,
         "about" : "Mexico, officially the United Mexican States, is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico",
         "officialLanguage": "Spanish",
         "independent": "Yes",
@@ -233,14 +219,12 @@ db.countries.insertMany([
                 "name": "CAD"
                  },
         "areaKM": 9984670,
-        "highestPoint": {
-                        "tallestpointM": 5959,
-                        "location": "Mount Logan"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 326,
-                  "medals": {"gold": 71, "silver": 108, "bronze": 147}
-                  },
+        "highestPoint": "Mount Logan",
+        "highestPointMetres": 5959,
+        "olympicMedalsTotal": 326,
+        "goldMedals": 71, 
+        "silverMedals": 108, 
+        "bronzeMedals": 147,
         "about" : "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres, making it the world's second-largest country by total area",
         "officialLanguage": "French",
         "independent": "Yes",
@@ -264,14 +248,12 @@ db.countries.insertMany([
                 "name": "Jamaican dollar"
                  },
         "areaKM": 10991,
-        "highestPoint": {
-                        "tallestpointM": 2256,
-                        "location": "Blue Mountain Peak"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 87,
-                  "medals": {"gold": 26, "silver": 36, "bronze": 25}
-                  },
+        "highestPoint": "Blue Mountain Peak",
+        "highestPointMetres": 2256,
+        "olympicMedalsTotal": 87,
+        "goldMedals": 26, 
+        "silverMedals": 36, 
+        "bronzeMedals": 25,
         "about" : "Jamaica, a Caribbean island nation, has a lush topography of mountains, rainforests and reef-lined beaches. Many of its all-inclusive resorts are clustered in Montego Bay, with its British-colonial architecture, and Negril, known for its diving and snorkeling sites. Jamaica is famed as the birthplace of reggae music, and its capital Kingston is home to the Bob Marley Museum, dedicated to the famous singer.",
         "officialLanguage": "English",
         "independent": "Yes",
@@ -295,14 +277,12 @@ db.countries.insertMany([
                 "name": "GTQ"
                  },
         "areaKM": 108889,
-        "highestPoint": {
-                        "tallestpointM": 4220,
-                        "location": "Volcán Tajumulco"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 1,
-                  "medals": {"gold": 0, "silver": 1, "bronze": 0}
-                  },
+        "highestPoint": "Volcán Tajumulco",
+        "highestPointMetres": 4220,
+        "olympicMedalsTotal": 1,
+        "goldMedals": 0, 
+        "silverMedals": 1, 
+        "bronzeMedals": 0,
         "about" : "Guatemala, a Central American country south of Mexico, is home to volcanoes, rainforests and ancient Mayan sites. The capital, Guatemala City, features the stately National Palace of Culture and the National Museum of Archaeology and Ethnology. Antigua, west of the capital, contains preserved Spanish colonial buildings. Lake Atitlán, formed in a massive volcanic crater, is surrounded by coffee fields and villages.",
         "officialLanguage": "Spanish",
         "independent": "Yes",
@@ -326,14 +306,12 @@ db.countries.insertMany([
                 "name": "PGK"
                  },
         "areaKM": 462840,
-        "highestPoint": {
-                        "tallestpointM": 4509,
-                        "location": "Mount Wilhelm"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 0,
-                  "medals": {"gold": 0, "silver": 0, "bronze": 0}
-                  },
+        "highestPoint": "Mount Wilhelm",
+        "highestPointMetres": 4509,
+        "olympicMedalsTotal": 0,
+        "goldMedals": 0, 
+        "silverMedals": 0, 
+        "bronzeMedals": 0,
         "about" : "Southern Region is one of four regions of Papua New Guinea. The region includes the national capital Port Moresby",
         "officialLanguage": "English",
         "independent": "Yes",
@@ -357,14 +335,12 @@ db.countries.insertMany([
                 "name": "NZD"
                  },
         "areaKM": 270467,
-        "highestPoint": {
-                        "tallestpointM": 3754,
-                        "location": "Mt. Cook"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 137,
-                  "medals": {"gold": 53, "silver": 33, "bronze": 51}
-                  },
+        "highestPoint": "Mt. Cook",
+        "highestPointMetres": 3754,
+        "olympicMedalsTotal": 137,
+        "goldMedals": 53, 
+        "silverMedals": 33, 
+        "bronzeMedals": 51,
         "about" : "New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island and the South Island —and over 700 smaller islands.",
         "officialLanguage": "English",
         "independent": "Yes",
@@ -389,14 +365,12 @@ db.countries.insertMany([
                 "name": "BRL"
                  },
         "areaKM": 8515767,
-        "highestPoint": {
-                        "tallestpointM": 2994,
-                        "location": "Pico da Neblina"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 150,
-                  "medals": {"gold": 37, "silver": 42, "bronze": 71}
-                  },
+        "highestPoint": "Pico da Neblina",
+        "highestPointMetres": 2994,
+        "olympicMedalsTotal": 150,
+        "goldMedals": 37, 
+        "silverMedals": 42, 
+        "bronzeMedals": 71,
         "about" : "Brazil, officially the Federative Republic of Brazil, is the largest country in both South America and Latin America. At 8.5 million square kilometers and with over 211 million people, Brazil is the world's fifth-largest country by area and the sixth most populous",
         "officialLanguage": "Portuguese",
         "independent": "Yes",
@@ -421,14 +395,12 @@ db.countries.insertMany([
                 "name": "ARS"
                  },
         "areaKM": 2780400,
-        "highestPoint": {
-                        "tallestpointM": 6959,
-                        "location": "Aconcagua "
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 77,
-                  "medals": {"gold": 21, "silver": 26, "bronze": 30}
-                  },
+        "highestPoint": "Aconcagua",
+        "highestPointMetres": 6959,
+        "olympicMedalsTotal": 77,
+        "goldMedals": 21, 
+        "silverMedals": 26, 
+        "bronzeMedals": 30,
         "about" : "Argentina, officially the Argentine Republic, is a country in the southern half of South America. Argentina covers an area of 2,780,400 km², making it the largest Spanish-speaking nation in the world by area.",
         "officialLanguage":"None (Spanish has de facto status)",
         "independent": "Yes",
@@ -453,14 +425,12 @@ db.countries.insertMany([
                 "name": "VES"
                  },
         "areaKM": 916445,
-        "highestPoint": {
-                        "tallestpointM": 4978,
-                        "location": "Bolívar Peak"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 19,
-                  "medals": {"gold": 3, "silver": 7, "bronze": 9}
-                  },
+        "highestPoint": "Bolívar Peak",
+        "highestPointMetres": 4978,
+        "olympicMedalsTotal": 19,
+        "goldMedals": 3, 
+        "silverMedals": 7, 
+        "bronzeMedals": 9,
         "about" : "Venezuela is a country on the northern coast of South America with diverse natural attractions. Along its Caribbean coast are tropical resort islands including Isla de Margarita and the Los Roques archipelago. ",
         "officialLanguage": "Spanish and Venezuelan Sign Language",
         "independent": "Yes",
@@ -484,14 +454,12 @@ db.countries.insertMany([
                 "name": "SRD"
                  },
         "areaKM": 163820,
-        "highestPoint": {
-                        "tallestpointM": 1286,
-                        "location": "Julianatop"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 2,
-                  "medals": {"gold": 1, "silver": 0, "bronze": 1}
-                  },
+        "highestPoint": "Julianatop",
+        "highestPointMetres": 1286,
+        "olympicMedalsTotal": 2,
+        "goldMedals": 1, 
+        "silverMedals": 0, 
+        "bronzeMedals": 1,
         "about" : "Suriname is a small country on the northeastern coast of South America. It's defined by vast swaths of tropical rainforest, Dutch colonial architecture and a melting-pot culture. ",
         "officialLanguage": "Dutch",
         "independent": "Yes",
@@ -515,14 +483,12 @@ db.countries.insertMany([
                 "name": "CLP"
                  },
         "areaKM": 756102,
-        "highestPoint": {
-                        "tallestpointM": 6891,
-                        "location": "Nevado Ojos del Salado"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 13,
-                  "medals": {"gold": 2, "silver": 7, "bronze": 4}
-                  },
+        "highestPoint": "Nevado Ojos del Salado",
+        "highestPointMetres": 6891,
+        "olympicMedalsTotal": 13,
+        "goldMedals": 2, 
+        "silverMedals": 7, 
+        "bronzeMedals": 4,
         "about" : "Chile is a long, narrow country stretching along South America's western edge, with more than 6,000km of Pacific Ocean coastline.",
         "officialLanguage": "None (Spanish has de facto status)",
         "independent": "Yes",
@@ -546,14 +512,12 @@ db.countries.insertMany([
                 "name": "PEN"
                  },
         "areaKM": 1285216,
-        "highestPoint": {
-                        "tallestpointM": 6768,
-                        "location": "Huascarán."
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 4,
-                  "medals": {"gold": 1, "silver": 3, "bronze": 0}
-                  },
+        "highestPoint": "Huascarán",
+        "highestPointMetres": 6768,
+        "olympicMedalsTotal": 4,
+        "goldMedals": 1, 
+        "silverMedals": 3, 
+        "bronzeMedals": 0,
         "about" : "Peru is home to a section of Amazon rainforest and Machu Picchu, an ancient Incan city high in the Andes mountains. The region around Machu Picchu, including the Sacred Valley, Inca Trail and colonial city of Cusco, is rich in archaeological sites. ",
         "officialLanguage": "Spanish, Aymara, Quechua",
         "independent": "Yes",
@@ -577,14 +541,12 @@ db.countries.insertMany([
                 "name": "UGX"
                  },
         "areaKM": 241550,
-        "highestPoint": {
-                        "tallestpointM": 5094 ,
-                        "location": "Alexandra - Ruwenzori mountain range"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 11,
-                  "medals": {"gold": 4, "silver": 4, "bronze": 3}
-                  },
+        "highestPoint": "Alexandra - Ruwenzori mountain range",
+        "highestPointMetres": 5094,
+        "olympicMedalsTotal": 11,
+        "goldMedals": 4, 
+        "silverMedals": 4, 
+        "bronzeMedals": 3,
         "about" : "Uganda is a landlocked country in East Africa whose diverse landscape encompasses the snow-capped Rwenzori Mountains and immense Lake Victoria. Its abundant wildlife includes chimpanzees as well as rare birds.",
         "officialLanguage": "English, Swahili",
         "independent": "Yes",
@@ -608,14 +570,12 @@ db.countries.insertMany([
                 "name": "DZD"
                  },
         "areaKM": 2381741,
-        "highestPoint": {
-                        "tallestpointM": 3003,
-                        "location": "Mount Tahat"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 17,
-                  "medals": {"gold": 5, "silver": 4, "bronze": 8}
-                  },
+        "highestPoint": "Mount Tahat",
+        "highestPointMetres": 3003,
+        "olympicMedalsTotal": 17,
+        "goldMedals": 5, 
+        "silverMedals": 4, 
+        "bronzeMedals": 8,
         "about" : "Algeria is a North African country with a Mediterranean coastline and a Saharan desert interior. Many empires have left legacies here, such as the ancient Roman ruins in seaside Tipaza.",
         "officialLanguage": "Arabic, Tamazight",
         "independent": "Yes",
@@ -639,14 +599,12 @@ db.countries.insertMany([
                 "name": "AOA"
                  },
         "areaKM": 1246700,
-        "highestPoint": {
-                        "tallestpointM": 2620,
-                        "location": "Morro de Môco"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 0,
-                  "medals": {"gold": 0, "silver": 0, "bronze": 0}
-                  },
+        "highestPoint": "Morro de Môco",
+        "highestPointMetres": 2620,
+        "olympicMedalsTotal": 0,
+        "goldMedals": 0, 
+        "silverMedals": 0, 
+        "bronzeMedals": 0,
         "about" : "Angola is a Southern African nation whose varied terrain encompasses tropical Atlantic beaches, a labyrinthine system of rivers and Sub-Saharan desert that extends across the border into Namibia.",
         "officialLanguage": "Portuguese",
         "independent": "Yes",
@@ -670,14 +628,12 @@ db.countries.insertMany([
                 "name": "EGP"
                  },
         "areaKM": 1002450,
-        "highestPoint": {
-                        "tallestpointM": 2642,
-                        "location": "Mount Kātrīnā"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 38,
-                  "medals": {"gold": 8, "silver": 11, "bronze": 19}
-                  },
+        "highestPoint": "Mount Kātrīnā",
+        "highestPointMetres": 2642,
+        "olympicMedalsTotal": 38,
+         "goldMedals": 8, 
+        "silverMedals": 11, 
+        "bronzeMedals": 19,
         "about" : "Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs.",
         "officialLanguage": "Arabic",
         "independent": "Yes",
@@ -701,14 +657,12 @@ db.countries.insertMany([
                 "name": "ZAR"
                  },
         "areaKM": 1221037,
-        "highestPoint": {
-                        "tallestpointM": 3482,
-                        "location": "Thabana Ntlenyana"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 89,
-                  "medals": {"gold": 27, "silver": 33, "bronze": 29}
-                  },
+        "highestPoint": "Thabana Ntlenyana",
+        "highestPointMetres": 3482,
+        "olympicMedalsTotal": 89,
+        "goldMedals": 27, 
+        "silverMedals": 33, 
+        "bronzeMedals": 29,
         "about" : "South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems.",
         "officialLanguage": "Afrikaans, English, Southern Ndebele, Sotho, Northern Sotho, Swazi, Tsonga, Tswana, Venda, Xhosa, Zulu",
         "independent": "Yes",
@@ -732,14 +686,12 @@ db.countries.insertMany([
                 "name": "MAD"
                  },
         "areaKM": 446550,
-        "highestPoint": {
-                        "tallestpointM": 4165,
-                        "location": "Mount Toubkal"
-                        },
-        "olympicMedals":{
-                  "totalMedalcount": 24,
-                  "medals": {"gold": 7, "silver": 5, "bronze": 12}
-                  },
+        "highestPoint": "Mount Toubkal",
+        "highestPointMetres": 4165,
+        "olympicMedalsTotal": 24,
+        "goldMedals": 7, 
+        "silverMedals": 5, 
+        "bronzeMedals": 12,
         "about" : "Morocco, a North African country bordering the Atlantic Ocean and Mediterranean Sea, is distinguished by its Berber, Arabian and European cultural influences. ",
         "officialLanguage": "Arabic, Tamazight",
         "independent": "Yes",
@@ -763,14 +715,12 @@ db.countries.insertMany([
                         "name": "IDR"
                     },
         "areaKM": 1904569,
-        "highestPoint": {
-                            "tallestpointM": 4884,
-                            "location": "Puncak Jaya"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 37,
-                            "medals": {"gold": 8, "silver": 14, "bronze": 15 }
-                        },
+        "highestPoint": "Puncak Jaya",
+        "highestPointMetres": 4884, 
+        "olympicMedalsTotal": 37,
+        "goldMedals": 8, 
+        "silverMedals": 14, 
+        "bronzeMedals": 15,
         "about" : "Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over seventeen thousand islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea.",
         "officialLanguage": "Indonesian",
         "independent": "Yes",
@@ -795,14 +745,12 @@ db.countries.insertMany([
                         "name": "KHR"
                     },
         "areaKM": 181035,
-        "highestPoint": {
-                            "tallestPointM": 1813,
-                            "location": "Mount Aôral"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 0,
-                            "medals": {"gold": 0, "silver": 0, "bronze": 0 }
-                        },
+        "highestPoint": "Mount Aôral",
+        "highestPointM": 1813,
+        "olympicMedalsTotal": 0,
+        "goldMedals": 0, 
+        "silverMedals": 0, 
+        "bronzeMedals": 0 ,
         "about" : "Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Phnom Penh, its capital, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest are the ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire.",
         "officialLanguage": "Khmer",
         "independent": "Yes",
@@ -828,14 +776,12 @@ db.countries.insertMany([
                         "name": "TWD"
                     },
         "areaKM": 36193,
-        "highestPoint": {
-                            "tallestPointM": 3952,
-                            "location": "Yushan"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 36,
-                            "medals": {"gold": 7, "silver": 11, "bronze": 18 }
-                        },
+        "highestPoint": "Yushan",
+        "highestPointM": 3952,
+        "olympicMedalsTotal": 36,
+        "goldMedals": 7, 
+        "silverMedals": 11, 
+        "bronzeMedals": 1,
         "about" : "Taiwan, officially the Republic of China, is a country in East Asia. It shares maritime borders with the People's Republic of China to the northwest, Japan to the northeast, and the Philippines to the south.",
         "officialLanguage": "Chinese",
         "independent": "No",
@@ -861,14 +807,12 @@ db.countries.insertMany([
                         "name": "INR"
                      },
         "areaKM": 3287590,
-        "highestPoint": {
-                            "tallestpointM": 8586,
-                            "location": "Kangchenjunga"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 35,
-                            "medals": {"gold": 10, "silver": 9, "bronze": 16}
-                        },
+        "highestPoint": "Kangchenjunga",
+        "highestPointMetres": 8586,
+        "olympicMedalsTotal": 35,
+        "goldMedals": 10, 
+        "silverMedals": 9, 
+        "bronzeMedals": 16,
         "about" : "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.",
         "officialLanguage": "Hindi",
         "independent": "Yes",
@@ -893,14 +837,12 @@ db.countries.insertMany([
                         "name": "SGD"
                      },
         "areaKM": 710,
-        "highestPoint": {
-                            "tallestpointM": 163.63,
-                            "location": "Bukit Timah Hill"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 5,
-                            "medals": {"gold": 1, "silver": 2, "bronze": 2}
-                        },
+        "highestPoint": "Bukit Timah Hill",
+        "highestPointMetres": 163.63,
+        "olympicMedalsTotal": 5,
+        "goldMedals": 1, 
+        "silverMedals": 2, 
+        "bronzeMedals": 2,
         "about" : "Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia.",
         "officialLanguage": "Malay",
         "independent": "Yes",
@@ -925,14 +867,12 @@ db.countries.insertMany([
                         "name": "HKD"
                      },
         "areaKM": 1104,
-        "highestPoint": {
-                            "tallestpointM": 957,
-                            "location": "Tai Mo Shan"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 9,
-                            "medals": {"gold": 2, "silver": 3, "bronze": 4}
-                        },
+        "highestPoint": "Tai Mo Shan",
+        "highestPointMetres": 957,
+        "olympicMedalsTotal": 9,
+        "goldMedals": 2, 
+        "silverMedals": 3, 
+        "bronzeMedals": 4,
         "about" : "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in South China.",
         "officialLanguage": "Chinese",
         "independent": "No",
@@ -957,14 +897,12 @@ db.countries.insertMany([
                         "name": "JPY"
                      },
         "areaKM": 377930,
-        "highestPoint": {
-                            "tallestpointM": 3776,
-                            "location": "Mount Fuji"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 497,
-                            "medals": {"gold": 169, "silver": 150, "bronze": 178}
-                        },
+        "highestPoint": "Mount Fuji",
+        "highestPointMetres": 3776,
+        "olympicMedalsTotal": 497,
+        "goldMedals": 169, 
+        "silverMedals": 150, 
+        "bronzeMedals": 178,
         "about" : "Japan is an island country in East Asia, located in the northwest Pacific Ocean. It is bordered on the west by the Sea of Japan, and extends from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south.",
         "officialLanguage": "Japanese",
         "independent": "Yes",
@@ -989,14 +927,12 @@ db.countries.insertMany([
                         "name": "KRW"
                      },
         "areaKM": 100210,
-        "highestPoint": {
-                            "tallestpointM": 1950,
-                            "location": "Hallasan"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 287,
-                            "medals": {"gold": 96, "silver": 91, "bronze": 100}
-                        },
+        "highestPoint": "Hallasan",
+        "highestPointMetres": 1950,
+        "olympicMedalsTotal": 287,
+        "goldMedals": 96, 
+        "silverMedals": 91, 
+        "bronzeMedals": 100,
         "about" : "South Korea, an East Asian nation on the southern half of the Korean Peninsula, shares one of the world’s most heavily militarized borders with North Korea. It’s equally known for its green, hilly countryside dotted with cherry trees and centuries-old Buddhist temples, plus its coastal fishing villages, sub-tropical islands and high-tech cities such as Seoul, the capital.",
         "officialLanguage": "Korean",
         "independent": "Yes",
@@ -1021,14 +957,12 @@ db.countries.insertMany([
                         "name": "AUD"
                      },
         "areaKM": 7692024,
-        "highestPoint": {
-                            "tallestpointM": 2228,
-                            "location": "Mount Kosciuszko"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 547,
-                            "medals": {"gold": 164, "silver": 173, "bronze": 210}
-                        },
+        "highestPoint": "Mount Kosciuszko",
+        "highestPointMetres": 2228,
+        "olympicMedalsTotal":547,
+        "goldMedals": 164, 
+        "silverMedals": 173, 
+        "bronzeMedals": 210,
         "about" : "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country by area in Oceania and the world's sixth-largest country.",
         "officialLanguage": "English",
         "independent": "Yes",
@@ -1053,14 +987,12 @@ db.countries.insertMany([
                         "name": "FJD"
                      },
         "areaKM": 18272,
-        "highestPoint": {
-                            "tallestpointM": 1324,
-                            "location": "Tomanivi"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 3,
-                            "medals": {"gold": 2, "silver": 0, "bronze": 1}
-                        },
+        "highestPoint":  "Tomanivi",
+        "highestPointMetres": 1324,
+        "totalMedalcount": 3,               
+        "goldMedals": 2, 
+        "silverMedals": 0, 
+        "bronzeMedals": 1,
         "about" : "Fiji, a country in the South Pacific, is an archipelago of more than 300 islands. It's famed for rugged landscapes, palm-lined beaches and coral reefs with clear lagoons. Its major islands, Viti Levu and Vanua Levu, contain most of the population. Viti Levu is home to the capital, Suva, a port city with British colonial architecture. The Fiji Museum, in the Victorian-era Thurston Gardens, has ethnographic exhibits.",
         "officialLanguage": "English, Fijian, Hindi",
         "independent": "Yes",
@@ -1085,14 +1017,12 @@ db.countries.insertMany([
                         "name": "WST"
                      },
         "areaKM": 2842,
-        "highestPoint": {
-                            "tallestpointM": 1858,
-                            "location": "Mount Silisili"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 1,
-                            "medals": {"gold": 0, "silver": 1, "bronze": 0}
-                        },
+        "highestPoint": "Mount Silisili",
+        "highestPointMetres": 1858,     
+        "olympicMedalsTotal": 1,
+        "goldMedals": 0, 
+        "silverMedal": 1, 
+        "bronzeMedals": 0,
         "about" : "Samoa, officially the Independent State of Samoa and until 1997 known as Western Samoa, is a Polynesian island country consisting of two main islands, two smaller, inhabited islands, and several smaller, uninhabited islands, including the Aleipata Islands.",
         "officialLanguage": "Samoan, English",
         "independent": "Yes",
@@ -1117,14 +1047,12 @@ db.countries.insertMany([
                         "name": "TOP"
                      },
         "areaKM": 747,
-        "highestPoint": {
-                            "tallestpointM": 1033,
-                            "location": "Kao Island"
-                        },
-        "olympicMedals":{
-                            "totalMedalcount": 1,
-                            "medals": {"gold": 0, "silver": 1, "bronze": 0}
-                        },
+        "highestPointMetres": 1033,
+        "highestPoint": "Kao Island",
+        "olympicMedalsTotal": 1,
+        "goldMedals": 0, 
+        "silverMedals":0,
+        "bronzeMedals":1,
         "about" : "Tonga is a Polynesian kingdom of more than 170 South Pacific islands, many uninhabited, most lined in white beaches and coral reefs and covered with tropical rainforest. The main island, Tongatapu, is protected by lagoons and limestone cliffs. It’s home to the rural capital of Nuku'alofa, as well as beach resorts, plantations and the Ha'amonga ʻa Maui, a monumental coral gate from the 1200s.",
         "officialLanguage": "Tongan",
         "independent": "Yes",
