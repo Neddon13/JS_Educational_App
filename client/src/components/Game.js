@@ -4,11 +4,12 @@ import Computer from "./Computer";
 import worldMap from "../media/worldMap.mp4"
 
 const Game = ({playerCountry, computerCountry}) => {
-    const [playerChoice, setPlayerChoice] = useState("");
-    const [computerValue, setComputerValue] = useState("");
+    const [playerChoice, setPlayerChoice] = useState(null);
+    const [computerValue, setComputerValue] = useState(null);
 
     const handleChoice = (choice) => {
         setPlayerChoice(playerCountry[choice]);
+        setComputerValue(computerCountry[choice]);
     };
 
 
