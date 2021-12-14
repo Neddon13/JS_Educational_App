@@ -29,8 +29,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/gb.svg",
         "borderingCountries": "Ireland",
         "nationalAnimal": "Lion",
-        "animalPhoto": "https://en.wikipedia.org/wiki/Lion#/media/File:Lion_waiting_in_Namibia.jpg",
-        "googleMap": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lion2010.jpg/800px-Lion2010.jpg",
+        "googleMap": "https://goo.gl/maps/FoDtc3UKMkFsXAjHA",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Buckingham_Palace_aerial_view_2016_%28cropped%29.jpg/1920px-Buckingham_Palace_aerial_view_2016_%28cropped%29.jpg"
     }, 
 
     {
@@ -60,8 +61,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/fr.svg",
         "borderingCountries": "Andorra, Belgium, Germany, Italy, Luxembourg, Monaco, Spain, Switzerland",
         "nationalAnimal": "The Gallic Rooster",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Coq-gaulois-dore.JPG",
-        "googleMap": "https://goo.gl/maps/g7QxxSFsWyTPKuzd7"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/35/Coq-gaulois-dore.JPG",
+        "googleMap": "https://goo.gl/maps/g7QxxSFsWyTPKuzd7",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/800px-Tour_Eiffel_Wikimedia_Commons.jpg"
     },
 
     {
@@ -91,8 +93,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/es.svg",
         "borderingCountries": "Andorra, France, Gibraltar, Portugal, Morocco",
         "nationalAnimal": "Bull",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_animals_representing_first-level_administrative_country_subdivisions#/media/File:Toro_de_Osborne_(Llanes,_Asturias)_01.jpg",
-        "googleMap": "https://goo.gl/maps/138JaXW8EZzRVitY9"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/San_marcos_bullfight_01.jpg/1920px-San_marcos_bullfight_01.jpg",
+        "googleMap": "https://goo.gl/maps/138JaXW8EZzRVitY9",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1920px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
     },
     {
         "name": "Italy",
@@ -121,8 +124,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/it.svg",
         "borderingCountries": "Austria, France, San Marino, Slovenia, Switzerland, Vatican City",
         "nationalAnimal": "Italian Wolf",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Lupo_appenninico_3.jpg",
-        "googleMap": "https://goo.gl/maps/8M1K27TDj7StTRTq8"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lupo_appenninico_3.jpg",
+        "googleMap": "https://goo.gl/maps/8M1K27TDj7StTRTq8",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/The_Leaning_Tower_of_Pisa_SB.jpeg/800px-The_Leaning_Tower_of_Pisa_SB.jpeg"
     },
     {
         "name": "Germany",
@@ -151,8 +155,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/de.svg",
         "borderingCountries": "Austria, Belgium, Czech Republic, Denmark, France, Luxembourg, Netherlands, Poland, Switzerland",
         "nationalAnimal": "Federal eagle",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_birds#/media/File:Aquila_chrysaetos_Flickr.jpg",
-        "googleMap": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Aquila_chrysaetos_Flickr.jpg/2560px-Aquila_chrysaetos_Flickr.jpg",
+        "googleMap": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Brandenburger_Tor_abends.jpg"
     },
     {
         "name": "United States",
@@ -181,8 +186,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/us.svg",
         "borderingCountries": "Canada, Mexico",
         "nationalAnimal": "Bald Eagle",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_birds#/media/File:Bald_eagle_closeup_16x9.jpg",
-        "googleMap": "https://goo.gl/maps/e8M246zY4BSjkjAv6"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Haliaeetus_leucocephalus.jpeg",
+        "googleMap": "https://goo.gl/maps/e8M246zY4BSjkjAv6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/1280px-White_House_north_and_south_sides.jpg"
     },
     {
         "name": "Mexico",
@@ -211,8 +217,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/mx.svg",
         "borderingCountries": "Belize, Guatemala, United States",
         "nationalAnimal": "Golden Eagle",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_birds#/media/File:GoldenEagle-Nova.jpg",
-        "googleMap": "https://goo.gl/maps/s5g7imNPMDEePxzbA"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Golden_Eagle_in_flight_-_5.jpg/1284px-Golden_Eagle_in_flight_-_5.jpg",
+        "googleMap": "https://goo.gl/maps/s5g7imNPMDEePxzbA",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bellas_Artes_01.jpg/1920px-Bellas_Artes_01.jpg"
     },
     {
         "name": "Canada",
@@ -241,8 +248,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/ca.svg",
         "borderingCountries": "United States",
         "nationalAnimal": "North American beaver",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:American_Beaver.jpg",
-        "googleMap": "https://goo.gl/maps/jmEVLugreeqiZXxbA"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg",
+        "googleMap": "https://goo.gl/maps/jmEVLugreeqiZXxbA",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Toronto_-_ON_-_Toronto_Harbourfront7.jpg/800px-Toronto_-_ON_-_Toronto_Harbourfront7.jpg"
     },
     {
         "name": "Jamaica",
@@ -271,8 +279,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/jm.svg",
         "borderingCountries": "This country does not border any countries",
         "nationalAnimal": "Red-Billed streamertail",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Red-billed_Streamertail_2506104129.jpg",
-        "googleMap": "https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Red-billed_Streamertail_2506104129.jpg/1599px-Red-billed_Streamertail_2506104129.jpg",
+        "googleMap": "https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/8/81/56hoperd.JPG"
     },
     {
         "name": "Guatemala",
@@ -301,8 +310,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/gt.svg",
         "borderingCountries": "Belize, El Salvador, Honduras, Mexico",
         "nationalAnimal": "Quetzal",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Quetzal01.jpg",
-        "googleMap": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/70/Quetzal01.jpg",
+        "googleMap": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tikal_Temple1_2006_08_11.JPG/1024px-Tikal_Temple1_2006_08_11.JPG"
     },
     {
         "name": "Papua New Guinea",
@@ -331,8 +341,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/pg.svg",
         "borderingCountries": "Indonesia",
         "nationalAnimal": "Dugong",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:Dugong_Marsa_Alam.jpg",
-        "googleMap": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dugong_Marsa_Alam.jpg/1600px-Dugong_Marsa_Alam.jpg",
+        "googleMap": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mount_Wilhelm.jpg"
     },
     {
         "name": "New Zealand",
@@ -361,8 +372,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/nz.svg",
         "borderingCountries": "This country does not border any countries",
         "nationalAnimal": "Kiwi",
-        "animalPhoto": "https://en.wikipedia.org/wiki/List_of_national_animals#/media/File:TeTuatahianui.jpg",
-        "googleMap": "https://goo.gl/maps/xXiDQo65dwdpw9iu8"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TeTuatahianui.jpg/900px-TeTuatahianui.jpg",
+        "googleMap": "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aoraki_Mount_Cook.JPG/1024px-Aoraki_Mount_Cook.JPG"
     },
 
     {
@@ -392,8 +404,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/br.svg",
         "borderingCountries": "Argentina, Bolivia, Colombia, French Guiana, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela",
         "nationalAnimal": "Rufous-bellied thrush",
-        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Turdus-rufiventris.jpg/800px-Turdus-rufiventris.jpg",
-        "googleMap": "https://goo.gl/maps/waCKk21HeeqFzkNC9"
+        "animalPhoto": "",
+        "googleMap": "https://goo.gl/maps/waCKk21HeeqFzkNC9",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Aerial_view_of_the_Statue_of_Christ_the_Redeemer.jpg"
     },
     
     {
@@ -424,7 +437,8 @@ db.countries.insertMany([
         "borderingCountries": "Bolivia, Brazil, Chile, Paraguay, Uruguay",
         "nationalAnimal": "	Rufous hornero",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg/300px-Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg",
-        "googleMap": "https://goo.gl/maps/Z9DXNxhf2o93kvyc6"
+        "googleMap": "https://goo.gl/maps/Z9DXNxhf2o93kvyc6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Iguazu_National_Park_Falls.jpg/1920px-Iguazu_National_Park_Falls.jpg"
     },
     
     {
@@ -455,7 +469,8 @@ db.countries.insertMany([
         "borderingCountries": "Brazil, Colombia, Guyana",
         "nationalAnimal": "Venezuelan troupial",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Curacao-Icterus-Icterus-2013.JPG/1591px-Curacao-Icterus-Icterus-2013.JPG",
-        "googleMap": "https://goo.gl/maps/KLCwDN8sec7z2kse9"
+        "googleMap": "https://goo.gl/maps/KLCwDN8sec7z2kse9",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SaltoAngel4.jpg/1024px-SaltoAngel4.jpg"
     },
     {
         "name": "Suriname",
@@ -485,7 +500,8 @@ db.countries.insertMany([
         "borderingCountries": "Brazil, French Guiana, Guyana",
         "nationalAnimal": "Lesser Kiskadee",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Lesser_kiskadee_%28Pitangus_lictor_panamense%29.jpg/440px-Lesser_kiskadee_%28Pitangus_lictor_panamense%29.jpg",
-        "googleMap": "https://goo.gl/maps/iy7TuQLSi4qgoBoG7"
+        "googleMap": "https://goo.gl/maps/iy7TuQLSi4qgoBoG7",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Leo_val_brownsberg.JPG/568px-Leo_val_brownsberg.JPG"
     },
     {
         "name": "Chile",
@@ -515,7 +531,8 @@ db.countries.insertMany([
         "borderingCountries": "Argentina, Bolivia, Peru",
         "nationalAnimal": "Huemul",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Huemul_verdadero.JPG",
-        "googleMap": "https://goo.gl/maps/XboxyNHh2fAjCPNn9"
+        "googleMap": "https://goo.gl/maps/XboxyNHh2fAjCPNn9",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg/1024px-Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg"
     },
     {
         "name": "Peru",
@@ -545,7 +562,8 @@ db.countries.insertMany([
         "borderingCountries": "Bolivia, Brazil, Chile, Colombia, Ecuador",
         "nationalAnimal": "Vicuña",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Vicunacrop.jpg",
-        "googleMap": "https://goo.gl/maps/uDWEUaXNcZTng1fP6"
+        "googleMap": "https://goo.gl/maps/uDWEUaXNcZTng1fP6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg"
     },
     {
         "name": "Uganda",
@@ -576,6 +594,7 @@ db.countries.insertMany([
         "nationalAnimal": "Grey crowned crane",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Balearica_regulorum_001.jpg/898px-Balearica_regulorum_001.jpg",
         "googleMap": "https://goo.gl/maps/Y7812hFiGa8LD9N68",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Murchison_Falls_-_by_Boschlech.jpg/1920px-Murchison_Falls_-_by_Boschlech.jpg"
     },
     {
         "name": "Algeria",
@@ -605,7 +624,8 @@ db.countries.insertMany([
         "borderingCountries": "Tunisia , Libya, Niger, Western Sahara, Morocco, Mali and Mauritania",
         "nationalAnimal": "Fennec fox",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Fennec_Foxes.jpg",
-        "googleMap": "https://goo.gl/maps/RsAyAfyaiNVb8DpW8"
+        "googleMap": "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Martyrs_Memorial._Algiers%2C_Algeria.jpg/1920px-Martyrs_Memorial._Algiers%2C_Algeria.jpg"
     },
     {
         "name": "Angola",
@@ -635,7 +655,8 @@ db.countries.insertMany([
         "borderingCountries": "Republic of the Congo, Democratic Republic of the Congo, Zambia and Namibia",
         "nationalAnimal": "Red-crested turaco",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RedcrestedTuraco.jpg/1500px-RedcrestedTuraco.jpg",
-        "googleMap": "https://goo.gl/maps/q42Qbf1BmQL3fuZg9"
+        "googleMap": "https://goo.gl/maps/q42Qbf1BmQL3fuZg9",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Moco.JPG/1920px-Moco.JPG"
     },
     {
         "name": "Egypt",
@@ -665,7 +686,8 @@ db.countries.insertMany([
         "borderingCountries": "Israel, Libya, Palestinian Territory, Sudan",
         "nationalAnimal": "Steppe Eagle ",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Steppe_Eagle_Portrait.jpg/1024px-Steppe_Eagle_Portrait.jpg",
-        "googleMap": "https://goo.gl/maps/uoDRhXbsqjG6L7VG7"
+        "googleMap": "https://goo.gl/maps/uoDRhXbsqjG6L7VG7",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/1920px-All_Gizah_Pyramids.jpg"
     },
     {
         "name": "South Africa",
@@ -695,7 +717,8 @@ db.countries.insertMany([
         "borderingCountries": "Botswana, Lesotho, Mozambique, Namibia, Eswatini and Zimbabwe",
         "nationalAnimal": "Springbok",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Springbok.JPG",
-        "googleMap": "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6"
+        "googleMap": "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ciudad_del_Cabo%2C_Kirstenbosch_NBG_33.jpg/2880px-Ciudad_del_Cabo%2C_Kirstenbosch_NBG_33.jpg"
     },
     {
         "name": "Morocco",
@@ -725,7 +748,8 @@ db.countries.insertMany([
         "borderingCountries": "Algeria, Western Sahara and Spain",
         "nationalAnimal": "Barbary lion",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/43/Barbary_lion.jpg",
-        "googleMap": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A"
+        "googleMap": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
+        "landmark": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Hassan_II_Mosque.jpg/2560px-Hassan_II_Mosque.jpg"
     },
     {
         "name": "Indonesia",
@@ -754,8 +778,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/id.svg",
         "borderingCountries": "Papua New Guinea, Malaysia and Timor-Leste",
         "nationalAnimal": "Komodo dragon",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis).jpg",
-        "googleMap": "https://goo.gl/maps/9gfPupm5bffixiFJ6"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg/1520px-Komodo_dragon_%28Varanus_komodoensis%29.jpg",
+        "googleMap": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Borobudur_Temple.jpg/1920px-Borobudur_Temple.jpg"
     },
     
     {
@@ -785,8 +810,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/kh.svg",
         "borderingCountries": "Laos, Thailand and Vietnam",
         "nationalAnimal": "Kouprey",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Saen_Monourom_Mondul_Kiri_Cambodia_crop.jpg",
-        "googleMap": "https://goo.gl/maps/nztQtFSrUXZymJaW8"           
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/44/Saen_Monourom_Mondul_Kiri_Cambodia_crop.jpg",
+        "googleMap": "https://goo.gl/maps/nztQtFSrUXZymJaW8",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/4/44/Ankor_Wat_temple.jpg",           
                 
     },
     
@@ -817,8 +843,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/tw.svg",
         "borderingCountries": "This Country does not border any Countries",
         "nationalAnimal": "Formosan black bear(unofficial)",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Formosan_Black_Bear.JPG",
-        "googleMap": "https://goo.gl/maps/HgMKFQjNadF3Wa6B6"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Formosan_Black_Bear.JPG/900px-Formosan_Black_Bear.JPG",
+        "googleMap": "https://goo.gl/maps/HgMKFQjNadF3Wa6B6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Chiang_Kai-shek_memorial_amk.jpg/2560px-Chiang_Kai-shek_memorial_amk.jpg",
         
     },
     
@@ -849,8 +876,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/in.svg",
         "borderingCountries": "Bangladesh, Bhutan, Myanmar(Burma), China, Nepal and Pakistan",
         "nationalAnimal": "Tiger",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Panthera_tigris_tigris.jpg",
-        "googleMap": "https://goo.gl/maps/WSk3fLwG4vtPQetp7"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/49/Panthera_tigris_tigris.jpg",
+        "googleMap": "https://goo.gl/maps/WSk3fLwG4vtPQetp7",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1600px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
     },
     
     {
@@ -880,8 +908,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/sg.svg",
         "borderingCountries": "Malaysia and Indonesia",
         "nationalAnimal": "Lion",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Lion_d%27Afrique.jpg",
-        "googleMap": "https://goo.gl/maps/QbQt9Y9b5KFzsahV6"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lion_d%27Afrique.jpg/1099px-Lion_d%27Afrique.jpg",
+        "googleMap": "https://goo.gl/maps/QbQt9Y9b5KFzsahV6",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Marina_Bay_Sands_from_Gardens_By_The_Bay.jpg"
     },
     
     {
@@ -911,8 +940,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/hk.svg",
         "borderingCountries": "China",
         "nationalAnimal": "Giant Panda",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Grosser_Panda.JPG",
-        "googleMap": "https://goo.gl/maps/1sEnNmT47ffrC8MU8"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1600px-Grosser_Panda.JPG",
+        "googleMap": "https://goo.gl/maps/1sEnNmT47ffrC8MU8",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Tian_Tan_Buddha_001.jpg",
     },
     
     {
@@ -942,8 +972,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/jp.svg",
         "borderingCountries": "South Korea",
         "nationalAnimal": "Japanese macaque",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Japanese_Snow_Monkey_(Macaque)_Mother_Grooms_Her_Young.jpg",
-        "googleMap": "https://goo.gl/maps/NGTLSCSrA8bMrvnX9"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg/976px-Japanese_Snow_Monkey_%28Macaque%29_Mother_Grooms_Her_Young.jpg",
+        "googleMap": "https://goo.gl/maps/NGTLSCSrA8bMrvnX9",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/080103_hakkai_fuji.jpg/1920px-080103_hakkai_fuji.jpg"
     },
     
     {
@@ -973,8 +1004,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/kr.svg",
         "borderingCountries": "North Korea",
         "nationalAnimal": "The Siberian tiger",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:P.t.altaica_Tomak_Male.jpg",
-        "googleMap": "https://goo.gl/maps/7ecjaJXefjAQhxjGA"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/P.t.altaica_Tomak_Male.jpg/1599px-P.t.altaica_Tomak_Male.jpg",
+        "googleMap": "https://goo.gl/maps/7ecjaJXefjAQhxjGA",
+        "landmark": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%EC%97%AD%EC%82%AC%EC%86%8D%EC%9C%BC%EB%A1%9C.jpg/1600px-%EC%97%AD%EC%82%AC%EC%86%8D%EC%9C%BC%EB%A1%9C.jpg",
     },
     
     {
@@ -1004,8 +1036,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/au.svg",
         "borderingCountries": "This Country does not border any Countries",
         "nationalAnimal": "Red Kangaroo",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Red_kangaroo_-_melbourne_zoo.jpg",
-        "googleMap": "https://goo.gl/maps/DcjaDa7UbhnZTndH6"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Red_kangaroo_-_melbourne_zoo.jpg",
+        "googleMap": "https://goo.gl/maps/DcjaDa7UbhnZTndH6",
+        "landmark": "https://3m4r5618el913vtfz3jffby9-wpengine.netdna-ssl.com/wp-content/uploads/Sydney-Opera-House-1024x603.jpg"
     },
     
     {
@@ -1035,8 +1068,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/fj.svg",
         "borderingCountries": "This Country does not border any Countries",
         "nationalAnimal": "Collared Lory",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Collared_Lories_taveuni_june2008.JPG",
-        "googleMap": "https://goo.gl/maps/r9fhDqoLZdg1zmE99"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Collared_Lories_taveuni_june2008.JPG/1496px-Collared_Lories_taveuni_june2008.JPG",
+        "googleMap": "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
+        "landmark": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/a6/c3/72/20180915-124141-largejpg.jpg?w=1000&h=-1&s=1"
     },
     
     {
@@ -1066,8 +1100,9 @@ db.countries.insertMany([
         "flag": "https://flagcdn.com/ws.svg",
         "borderingCountries": "This Country does not border any Countries",
         "nationalAnimal": "Humpback whale",
-        "animalPhoto": "https://en.wikipedia.org/wiki/File:Humpback_Whale_underwater_shot.jpg",
-        "googleMap": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9"
+        "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg",
+        "googleMap": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
+        "landmark": "https://www.wondermondo.com/wp-content/uploads/2017/10/ToSua.jpg"
     },
     
     {
@@ -1098,6 +1133,7 @@ db.countries.insertMany([
         "borderingCountries": "This Country does not border any Countries",
         "nationalAnimal": "Radiated tortoise",
         "animalPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/TuiMalila.jpg/1920px-TuiMalila.jpg",
-        "googleMap": "https://goo.gl/maps/p5YALBY2QdEzswRo7"
+        "googleMap": "https://goo.gl/maps/p5YALBY2QdEzswRo7",
+        "landmark": "https://www.wondermondo.com/wp-content/uploads/2017/10/RoyalPalaceTonga-640x446.jpg?ezimgfmt=ng:webp/ngcb20"
     }, 
 ]);
