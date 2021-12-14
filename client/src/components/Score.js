@@ -2,7 +2,7 @@
 
 const Score = () => {
     return (
-        <div> 
+        <div className='score-div'> 
             <h3>Scores</h3>
             <p>Player:</p>
             <p>Computer:</p>

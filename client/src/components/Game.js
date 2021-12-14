@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import Player from "./Player";
 import Computer from "./Computer";
+import Score from "./Score";
 import globe from "../media/globe.mp4"
 
 const Game = ({playerCountry, computerCountry}) => {
@@ -26,6 +27,7 @@ const Game = ({playerCountry, computerCountry}) => {
             >
             <source src={globe} type="video/mp4"/>
             </video>
+            <Score />
         </div>
     );
 };
