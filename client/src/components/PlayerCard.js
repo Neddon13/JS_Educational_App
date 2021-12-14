@@ -9,9 +9,9 @@ const PlayerCard = ({playerCountry}) => {
         )
     };
     return (
-        <div>
+        <div className='card'>
             <h3>{playerCountry.name}</h3>
-            <img src={playerCountry.flag} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
+            <img src={playerCountry.landmark} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
             <table>
                 <tr>
                     <td>Population</td>

@@ -8,10 +8,11 @@ if (!playerCountry.currency) {
     )
 }
     return (
-        <div>
-            <p>Continent: {playerCountry.continent}</p>
-            <p>Official Name: {playerCountry.officialName}</p>
+        <div className='country-info'>
+            <img src={playerCountry.flag} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
             <p>{playerCountry.about}</p>
+            <p>Official Name: {playerCountry.officialName}</p>
+            <p>Continent: {playerCountry.continent}</p>
             <p>Capital: {playerCountry.capital}</p>
             <p>Official Language: {playerCountry.officialLanguage}</p>
             <p>Currency: {playerCountry.currency.officialName}</p>

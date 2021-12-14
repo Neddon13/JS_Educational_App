@@ -3,7 +3,7 @@ import Score from "./Score";
 
 const Computer = ({computerCountry}) => {
     return (
-        <div>
+        <div className='computer-div'>
             <h3> Computer </h3>
             <ComputerCard computerCountry={computerCountry}/>
             <Score />
