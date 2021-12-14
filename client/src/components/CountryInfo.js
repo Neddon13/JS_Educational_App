@@ -19,11 +19,11 @@ if (!playerCountry.currency) {
             <p>Bordering Countries: {playerCountry.borderingCountries}</p>
             <p>Independent: {playerCountry.independent}</p>
             <p>UN Member: {playerCountry.unMember}</p>
-            <p>Highest Point: {playerCountry.highestPoint.location}</p>
-            <p>Total Olympic Medals: {playerCountry.olympicMedals.totalMedalcount}</p>
-            <p> 🥇 {playerCountry.olympicMedals.medals.gold}
-                🥈 {playerCountry.olympicMedals.medals.silver}
-                🥉 {playerCountry.olympicMedals.medals.bronze}
+            <p>Highest Point: {playerCountry.highestPoint}</p>
+            <p>Total Olympic Medals: {playerCountry.olympicMedalsTotal}</p>
+            <p> 🥇 {playerCountry.goldMedals}
+                🥈 {playerCountry.silverMedals}
+                🥉 {playerCountry.bronzeMedals}
             </p>
           
             <p>National Animal: {playerCountry.nationalAnimal}</p>

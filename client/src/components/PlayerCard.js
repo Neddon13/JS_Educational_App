@@ -29,12 +29,12 @@ const PlayerCard = ({playerCountry, handleChoice}) => {
                     <td>{playerCountry.areaKM}km</td>
                 </tr>
                 <tr>
-                    <td><input type="radio" value="['highestPoint']['tallestpointM']" name="choice" />Hightest Point</td>
-                    <td>{playerCountry["highestPoint"]["tallestpointM"]}m</td>
+                    <td><input type="radio" value="highestPointMetres" name="choice" />Hightest Point</td>
+                    <td>{playerCountry.highestPointMetres}</td>
                 </tr>
                 <tr>
-                    <td><input type="radio" value={"olympicMedals"["totalMedalcount"]} name="choice" />Olympic Medals</td>
-                    <td>{playerCountry.olympicMedals.totalMedalcount}</td>
+                    <td><input type="radio" value="olympicMedalsTotal" name="choice" />Olympic Medals</td>
+                    <td>{playerCountry.olympicMedalsTotal}</td>
                 </tr>
             </table>
         </div>
