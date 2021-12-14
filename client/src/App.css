@@ -1,3 +1,8 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -8,19 +13,24 @@
   width: 300px;
   height: 700px;
   overflow: scroll;
+  color: white;
+  background-color: rgba(67, 182, 228, 0.267);
+  border-radius: 10px;
 }
 
 .country-info img {
-  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .game-div {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  border: 1px solid black;
+  justify-content: space-around;
   width: 900px;
   margin-right: 100px;
+  color: white;
 }
 
 .player-div {
@@ -40,16 +50,17 @@
 .card {
   width: 270px;
   height: 400px;
-  border: 7px groove orange;
-  background-color: #f5f5f5	;
+  border: 3px solid rgb(38, 126, 45);
+  background-color: rgba(67, 182, 228, 0.507);
   border-radius: 10px;
   margin-top: 10px;
 }
 
 .card table {
-  margin-top: 15px;
-  border: 1px solid white;
+  margin-top: 30px;
   text-align: left;
+  width: 270px;
+  color: white;
 }
 
 .card table td {
@@ -57,22 +68,24 @@
 }
 
 tr:nth-child(even) {
-  background-color: #ffa500;
+  background-color:  rgba(38, 126, 45, 0.507);
 }
 
 tr:nth-child(odd) {
-  background-color: #dda0dd;
+  background-color: #dda0dd80;
 }
 
 .card h3 {
   text-align: center;
-  background-color: #ffa500;
+  background-color: rgba(38, 126, 45, 0.507);
+  color: white;
 }
 
 .card img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
 
