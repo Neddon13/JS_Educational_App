@@ -7,11 +7,26 @@ import globe from "../media/globe.mp4"
 const Game = ({playerCountry, computerCountry}) => {
     const [playerChoice, setPlayerChoice] = useState(null);
     const [computerValue, setComputerValue] = useState(null);
+    const [winner, setWinner] = useState("")
+    const [playerScore, setPlayerScore] = useState(0)
+    const [computerScore, setComputerScore] = useState(0)
 
     const handleChoice = (choice) => {
         setPlayerChoice(playerCountry[choice]);
         setComputerValue(computerCountry[choice]);
     };
+
+    const handleClick = () => {
+        if (playerChoice > computerValue) {
+            setWinner("Player")
+            setPlayerScore(playerScore + 1)       
+        } else {
+            setWinner("Computer");
+            setComputerScore(computerScore + 1)
+        }
+        
+    };
+
 
 
 
@@ -27,7 +42,8 @@ const Game = ({playerCountry, computerCountry}) => {
             >
             <source src={globe} type="video/mp4"/>
             </video>
-            <Score />
+            <Score playerScore={playerScore} computerScore={computerScore}/>
+            <button onClick={handleClick}>Submit</button>
         </div>
     );
 };
