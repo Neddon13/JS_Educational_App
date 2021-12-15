@@ -5,7 +5,7 @@ import Computer from "./Computer";
 import Score from "./Score";
 import Popup from "./PopUp";
 
-const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setRoundtoOne, toggleReplay}) => {
+const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setRoundtoOne, toggleReplay, round}) => {
     const [playerChoice, setPlayerChoice] = useState(null);
     const [computerValue, setComputerValue] = useState(null);
     const [playerScore, setPlayerScore] = useState(0);
@@ -36,8 +36,14 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
     };
 
     const setModalIsOpenToTrue = () => {
-        if (playerScore == 8 || computerScore == 8) {
-            setModalIsOpen(true)
+        if (round === 11) {
+            if (playerScore > computerScore) {
+                setWinner('Player')
+                setModalIsOpen(true)
+            } else {
+                setWinner('Computer')
+                setModalIsOpen(true)
+            }   
         }  
     }
 
@@ -81,7 +87,7 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
             <Modal isOpen={modalIsOpen} style={customStyles}>
                 <button onClick={setModalIsOpenToFalse}>Play Again</button>
                 <button onClick={setRoundtoZero}>Home</button>
-                <Popup />
+                <Popup winner={winner} playerScore={playerScore} computerScore={computerScore} />
             </Modal>
         </div>
     );
