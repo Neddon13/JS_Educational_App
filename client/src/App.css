@@ -12,7 +12,7 @@ h3 {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 }
 
@@ -257,7 +257,7 @@ tr:nth-child(odd) {
 }
 
 .coolbutton:active {
-  background: linear-gradient(160deg, transparent, rgb(179, 55, 55));
+  background: linear-gradient(160deg, transparent, rgb(0, 3, 184));
   box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
   transition-delay: 1s;
 }

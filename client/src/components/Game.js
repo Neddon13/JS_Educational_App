@@ -21,14 +21,12 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
 
     const handleClick = () => {
         if (playerChoice > computerValue) {
-            setWinner("Player")
             setPlayerScore(playerScore + 1)  
             handleRound()
             setModalIsOpenToTrue()
             setChosen('') 
             setComputerValue(null)    
         } else {
-            setWinner("Computer");
             setComputerScore(computerScore + 1)
             handleRound()
             setModalIsOpenToTrue()  
