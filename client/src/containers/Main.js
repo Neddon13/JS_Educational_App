@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import CountryInfo from "../components/CountryInfo";
 import Game from "../components/Game";
+import About from '../components/About';
 
 function Main() {
 
@@ -50,6 +51,18 @@ function Main() {
         setRound(round + 1)
     };
 
+    const handleStart = () => {
+        setRound (round + 1)
+    }
+
+    if (round === 0) {
+
+        return (
+            <div className='container'>
+            <About handleStart={handleStart}/>
+            </div> 
+            )
+    }
 
     return (
         <div className='container'>
