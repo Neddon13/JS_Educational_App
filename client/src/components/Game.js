@@ -3,7 +3,6 @@ import Modal from 'react-modal';
 import Player from "./Player";
 import Computer from "./Computer";
 import Score from "./Score";
-import globe from "../media/globe.mp4"
 import Popup from "./PopUp";
 
 const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setRoundtoOne, toggleReplay}) => {
@@ -75,13 +74,13 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
 
     return  (
         <div className='game-div'>
+
             <Player playerCountry={playerCountry} handleChoice ={handleChoice} handleChosen={handleChosen} chosen={chosen}/>
             <Computer computerCountry={computerCountry} computerValue={computerValue}/>
-            <video
-             autoPlay loop muted style ={{  position: "absolute", width: "100%", left: "50%", top: "50%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%)", zIndex: "-1"}}
-            >
-            <source src={globe} type="video/mp4"/>
-            </video>
+            
+            <Player playerCountry={playerCountry} handleChoice ={handleChoice}/>
+            <Computer computerCountry={computerCountry}/>
+
             <Score playerScore={playerScore} computerScore={computerScore}/>
             <button className="glow-on-hover" onClick={handleClick}>Submit</button>
 

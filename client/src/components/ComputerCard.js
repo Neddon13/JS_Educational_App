@@ -1,4 +1,8 @@
+
 const ComputerCard = ({computerCountry, computerValue}) => {
+import BackCard from "../media/BackCard.png"
+const ComputerCard = ({computerCountry}) => {
+
 
     if (!computerCountry.highestPoint) {
         return (
@@ -11,7 +15,7 @@ const ComputerCard = ({computerCountry, computerValue}) => {
 	<div class="flipper">
 		<div class="front">
             <div className="compcard">
-			<img src="https://st2.depositphotos.com/1803332/9245/v/950/depositphotos_92457980-stock-illustration-playing-cards-back.jpg" style={{width:"270px", height:"400px"}} />
+			<img src={BackCard} style={{width:"270px", height:"400px"}} />
             </div>
 		</div>
 		<div class="back">
