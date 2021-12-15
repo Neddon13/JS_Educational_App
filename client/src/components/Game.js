@@ -39,7 +39,7 @@ const Game = ({playerCountry, computerCountry, handleRound}) => {
             <source src={globe} type="video/mp4"/>
             </video>
             <Score playerScore={playerScore} computerScore={computerScore}/>
-            <button onClick={handleClick}>Submit</button>
+            <button className="glow-on-hover" onClick={handleClick}>Submit</button>
         </div>
     );
 };

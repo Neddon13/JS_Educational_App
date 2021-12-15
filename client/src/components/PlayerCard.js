@@ -21,19 +21,19 @@ const PlayerCard = ({playerCountry, handleChoice}) => {
             <img src={playerCountry.landmark} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
             <table onChange={handleSelectChange}>
                 <tr>
-                    <td><input type="radio" value="population" name="choice" />Population</td>
-                    <td>{playerCountry.population}MM</td>
+                    <td><input  className="select" type="radio" value="population" name="choice" />Population</td>
+                    <td className="select">{playerCountry.population}MM</td>
                 </tr>
                 <tr>
-                    <td><input type="radio" value="areaKM" name="choice" />Area</td>
+                    <td><input  className="select" type="radio" value="areaKM" name="choice" />Area</td>
                     <td>{playerCountry.areaKM}km</td>
                 </tr>
                 <tr>
-                    <td><input type="radio" value="highestPointMetres" name="choice" />Hightest Point</td>
+                    <td><input  className="select" type="radio" value="highestPointMetres" name="choice" />Hightest Point</td>
                     <td>{playerCountry.highestPointMetres}m</td>
                 </tr>
                 <tr>
-                    <td><input type="radio" value="olympicMedalsTotal" name="choice" />Olympic Medals</td>
+                    <td><input  className="select" type="radio" value="olympicMedalsTotal" name="choice" />Olympic Medals</td>
                     <td>{playerCountry.olympicMedalsTotal}</td>
                 </tr>
             </table>

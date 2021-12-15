@@ -6,6 +6,14 @@ const ComputerCard = ({computerCountry}) => {
         )
     };
     return (
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+            <div className="compcard">
+			<img src="https://st2.depositphotos.com/1803332/9245/v/950/depositphotos_92457980-stock-illustration-playing-cards-back.jpg" style={{width:"270px", height:"400px"}} />
+            </div>
+		</div>
+		<div class="back">
         <div className='card' id='computer-card'>
             <h3>{computerCountry.name}</h3>
             <img src={computerCountry.landmark} alt={computerCountry.name} style={{width:"180px", height:"120px"}} />
@@ -28,6 +36,11 @@ const ComputerCard = ({computerCountry}) => {
                 </tr>
             </table>
         </div>
+       
+		</div>
+	</div>
+</div>
+        
     );
 }; 
 
