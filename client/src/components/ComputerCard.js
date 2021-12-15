@@ -1,7 +1,6 @@
+import BackCard from "../media/BackCard.png"
 
 const ComputerCard = ({computerCountry, computerValue}) => {
-import BackCard from "../media/BackCard.png"
-const ComputerCard = ({computerCountry}) => {
 
 
     if (!computerCountry.highestPoint) {

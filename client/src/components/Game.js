@@ -77,10 +77,6 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
 
             <Player playerCountry={playerCountry} handleChoice ={handleChoice} handleChosen={handleChosen} chosen={chosen}/>
             <Computer computerCountry={computerCountry} computerValue={computerValue}/>
-            
-            <Player playerCountry={playerCountry} handleChoice ={handleChoice}/>
-            <Computer computerCountry={computerCountry}/>
-
             <Score playerScore={playerScore} computerScore={computerScore}/>
             <button className="glow-on-hover" onClick={handleClick}>Submit</button>
 
