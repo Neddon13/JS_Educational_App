@@ -21,9 +21,6 @@ h3 {
   color: white;
   background-color: rgba(67, 182, 228, 0.267);
   border-radius: 10px;
-
-  
-
   padding: 10px;
 }
 
@@ -145,7 +142,7 @@ tr:nth-child(odd) {
 	perspective: 1000px;
 }
 	/* flip the pane when hovered */
-	.flip-container :active .flipper, .flip-container.hover .flipper {
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
 		transform: rotateY(180deg);
 	}
 
@@ -157,7 +154,7 @@ tr:nth-child(odd) {
 
 /* flip speed goes here */
 .flipper {
-	transition: 1s;
+	transition: 2s;
 	transform-style: preserve-3d;
 	position: relative;
 }
@@ -178,7 +175,7 @@ tr:nth-child(odd) {
 	transform: rotateY(0deg);
 }
 
-back, initially hidden pane */
+/*back, initially hidden pane */
  .back {
 	transform: rotateY(180deg);
 }
