@@ -9,7 +9,7 @@ if (!playerCountry.currency) {
 }
     return (
         <div className='country-info'>
-            <img src={playerCountry.flag} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
+            <img src={playerCountry.flag} alt={playerCountry.name} style={{width:"180px", height:"auto"}} />
             <p>{playerCountry.about}</p>
             <p>Official Name: {playerCountry.officialName}</p>
             <p>Continent: {playerCountry.continent}</p>
@@ -27,7 +27,7 @@ if (!playerCountry.currency) {
             </p>
           
             <p>National Animal: {playerCountry.nationalAnimal}</p>
-            <img src={playerCountry.animalPhoto} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
+            <img src={playerCountry.animalPhoto} alt={playerCountry.name} style={{width:"180px", height:"auto"}} />
            <a  className="coolbutton" href={playerCountry.googleMap} target="_blank">🗺️
            <span></span>
     <span></span>
