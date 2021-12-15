@@ -29,11 +29,6 @@ const Game = ({playerCountry, computerCountry, handleRound}) => {
     };
 
 
-
-
-
-
-    
     return  (
         <div className='game-div'>
             <Player playerCountry={playerCountry} handleChoice ={handleChoice}/>
