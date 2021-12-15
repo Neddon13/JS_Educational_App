@@ -12,6 +12,7 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
     const [playerScore, setPlayerScore] = useState(0);
     const [computerScore, setComputerScore] = useState(0);
     const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [chosen, setChosen] = useState('');
     const [winner, setWinner] = useState("")
 
     const handleChoice = (choice) => {
@@ -24,12 +25,16 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
             setWinner("Player")
             setPlayerScore(playerScore + 1)  
             handleRound()
-            setModalIsOpenToTrue()     
+            setModalIsOpenToTrue()
+            setChosen('') 
+            setComputerValue(null)    
         } else {
             setWinner("Computer");
             setComputerScore(computerScore + 1)
             handleRound()
             setModalIsOpenToTrue()  
+            setChosen('')
+            setComputerValue(null)
         }
     };
 
@@ -51,6 +56,10 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
         setComputerScore(0)
     }
 
+    const handleChosen = (chosenValue) => {
+        setChosen(chosenValue)
+    }
+
     const customStyles = {
         content : {
           top                   : '50%',
@@ -66,8 +75,8 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
 
     return  (
         <div className='game-div'>
-            <Player playerCountry={playerCountry} handleChoice ={handleChoice}/>
-            <Computer computerCountry={computerCountry}/>
+            <Player playerCountry={playerCountry} handleChoice ={handleChoice} handleChosen={handleChosen} chosen={chosen}/>
+            <Computer computerCountry={computerCountry} computerValue={computerValue}/>
             <video
              autoPlay loop muted style ={{  position: "absolute", width: "100%", left: "50%", top: "50%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%)", zIndex: "-1"}}
             >
