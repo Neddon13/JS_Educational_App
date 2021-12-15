@@ -25,13 +25,15 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
             handleRound()
             setModalIsOpenToTrue()
             setChosen('') 
-            setComputerValue(null)    
-        } else {
+            setComputerValue(null) 
+            setPlayerChoice(null)   
+        } else  if (playerChoice < computerValue) {
             setComputerScore(computerScore + 1)
             handleRound()
             setModalIsOpenToTrue()  
             setChosen('')
             setComputerValue(null)
+            setPlayerChoice(null)
         }
     };
 
@@ -71,7 +73,8 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
           bottom                : 'auto',
           marginRight           : '-50%',
           transform             : 'translate(-50%, -50%)',
-          backgroundColor       : '#F0AA89'      
+          backgroundColor       : '#0056B8',    
+          borderRadius          : '10px'  
         }
     };
 
@@ -85,9 +88,9 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
             <button className="glow-on-hover" onClick={handleClick}>Submit</button>
 
             <Modal isOpen={modalIsOpen} style={customStyles}>
+                <Popup winner={winner} playerScore={playerScore} computerScore={computerScore} />
                 <button onClick={setModalIsOpenToFalse}>Play Again</button>
                 <button onClick={setRoundtoZero}>Home</button>
-                <Popup winner={winner} playerScore={playerScore} computerScore={computerScore} />
             </Modal>
         </div>
     );

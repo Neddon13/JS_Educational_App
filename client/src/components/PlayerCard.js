@@ -42,7 +42,7 @@ const PlayerCard = ({playerCountry, handleChoice, handleChosen, chosen}) => {
                     checked={chosen === "olympicMedalsTotal"}  />Olympic Medals</td>
                     <td>{playerCountry.olympicMedalsTotal}</td>
                 </tr>
-            </table>
+            </table>              
         </div>
     );
 };
