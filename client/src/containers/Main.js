@@ -9,6 +9,7 @@ function Main() {
     const [computerCountry, setComputerCountry] = useState([]);
     const [countries, setCountries] = useState([]);
     const [round, setRound] = useState(0)
+    const [replay, setReplay] = useState(false)
 
     const url = 'http://localhost:5000/api/countries'
 
@@ -18,7 +19,7 @@ function Main() {
         .then(res =>{
             setCountries(res)
         })
-    },[])
+    },[replay])
 
     useEffect(()=>{
         if (countries.length) {
@@ -55,6 +56,23 @@ function Main() {
         setRound (round + 1)
     }
 
+    const setRoundtoZero = () => {
+        setRound(0)
+        toggleReplay()
+    }
+
+    const setRoundtoOne = () => {
+        setRound(1)
+    }
+
+    const toggleReplay = () => {
+        if (!replay) {
+            setReplay(true)
+        } else {
+            setReplay(false)
+        }
+    }
+
     if (round === 0) {
 
         return (
@@ -67,7 +85,13 @@ function Main() {
     return (
         <div className='container'>
             <CountryInfo playerCountry={playerCountry}/>
-            <Game playerCountry={playerCountry} computerCountry={computerCountry} handleRound={handleRound}/>
+            <Game 
+            playerCountry={playerCountry} 
+            computerCountry={computerCountry} 
+            handleRound={handleRound}
+            setRoundtoZero={setRoundtoZero}
+            setRoundtoOne={setRoundtoOne}
+            toggleReplay={toggleReplay}/>
         </div>
     );
 };
