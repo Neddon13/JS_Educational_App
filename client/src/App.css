@@ -21,8 +21,10 @@ h3 {
   color: white;
   background-color: rgba(67, 182, 228, 0.267);
   border-radius: 10px;
-  padding-left: 1%;
-  padding-right: 1%;
+
+  
+
+  padding: 10px;
 }
 
 .country-info img {

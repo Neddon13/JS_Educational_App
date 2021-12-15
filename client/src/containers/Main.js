@@ -39,6 +39,7 @@ function Main() {
     };
 
     function random_country(countries) {
+
         return countries[Math.floor(Math.random()*countries.length)]; 
     };
 
