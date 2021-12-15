@@ -5,6 +5,7 @@ const ComputerCard = ({computerCountry}) => {
             <p>Loading</p>
         )
     };
+    
     return (
         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 	<div class="flipper">
