@@ -28,7 +28,13 @@ if (!playerCountry.currency) {
           
             <p>National Animal: {playerCountry.nationalAnimal}</p>
             <img src={playerCountry.animalPhoto} alt={playerCountry.name} style={{width:"180px", height:"120px"}} />
-           <button className="buttonmap"> <a href={playerCountry.googleMap} target="_blank">Click Here! 🗺️</a></button>
+           <a  className="coolbutton" href={playerCountry.googleMap} target="_blank">🗺️
+           <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+           </a>
+           
         </div>
     );
 }; 
