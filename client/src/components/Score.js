@@ -1,11 +1,11 @@
 
 
-const Score = () => {
+const Score = ({playerScore, computerScore}) => {
     return (
-        <div> 
+        <div className='score-div'> 
             <h3>Scores</h3>
-            <p>Player:</p>
-            <p>Computer:</p>
+            <p>Player: {playerScore}</p>
+            <p>Computer: {computerScore}</p>
         </div>
     )
 }

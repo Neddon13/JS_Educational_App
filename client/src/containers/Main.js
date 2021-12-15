@@ -6,6 +6,7 @@ function Main() {
 
     const [playerCountry, setPlayerCountry] = useState([]);
     const [computerCountry, setComputerCountry] = useState([]);
+    const [round, setRound] = useState(0)
 
     const url = 'http://localhost:5000/api/countries'
 
@@ -18,7 +19,7 @@ function Main() {
         .then((dataP) => {
             console.log(dataP);
         })
-      },[]);
+      },[round]);
 
 
     const getCountryForComputer = () => {
@@ -33,14 +34,19 @@ function Main() {
         .then(countries => setPlayerCountry(random_country(countries)))
     };
 
+    const handleRound= () => {
+        setRound(round + 1)
+    };
+
     function random_country(countries) {
+
         return countries[Math.floor(Math.random()*countries.length)]; 
     };
 
     return (
         <div className='container'>
             <CountryInfo playerCountry={playerCountry}/>
-            <Game playerCountry={playerCountry} computerCountry={computerCountry}/>
+            <Game playerCountry={playerCountry} computerCountry={computerCountry} handleRound={handleRound}/>
         </div>
     );
 };
