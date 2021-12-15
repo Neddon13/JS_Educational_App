@@ -165,7 +165,7 @@ tr:nth-child(odd) {
 
 /* flip speed goes here */
 .flipper {
-	transition: 1s;
+	transition: 2s;
 	transform-style: preserve-3d;
 	position: relative;
 }
@@ -185,7 +185,6 @@ tr:nth-child(odd) {
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
-
 
  .back {
 	transform: rotateY(180deg);
