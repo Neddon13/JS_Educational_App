@@ -30,7 +30,7 @@ const PlayerCard = ({playerCountry, handleChoice, handleChosen, chosen}) => {
                 <tr>
                     <td><input onChange={handleSelectChange} className="select" type="radio" value="areaKM" name="choice" 
                     checked={chosen === 'areaKM'} />Area</td>
-                    <td>{playerCountry.areaKM}km</td>
+                    <td>{playerCountry.areaKM}km&#178;</td>
                 </tr>
                 <tr>
                     <td><input onChange={handleSelectChange} className="select" type="radio" value="highestPointMetres" name="choice" 
@@ -42,7 +42,7 @@ const PlayerCard = ({playerCountry, handleChoice, handleChosen, chosen}) => {
                     checked={chosen === "olympicMedalsTotal"}  />Olympic Medals</td>
                     <td>{playerCountry.olympicMedalsTotal}</td>
                 </tr>
-            </table>
+            </table>              
         </div>
     );
 };

@@ -28,7 +28,7 @@ const ComputerCard = ({computerCountry, computerValue}) => {
                 </tr>
                 <tr>
                     <td>Area</td>
-                    <td>{computerCountry.areaKM}km</td>
+                    <td>{computerCountry.areaKM}km&#178;</td>
                 </tr>
                 <tr>
                     <td>Hightest Point</td>

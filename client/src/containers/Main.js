@@ -89,6 +89,7 @@ function Main() {
             playerCountry={playerCountry} 
             computerCountry={computerCountry} 
             handleRound={handleRound}
+            round={round}
             setRoundtoZero={setRoundtoZero}
             setRoundtoOne={setRoundtoOne}
             toggleReplay={toggleReplay}/>
