@@ -1,13 +1,14 @@
 import Main from './containers/Main';
 import './App.css';
+import BBCIcon from './media/BBCIcon.png';
 
 function App() {
   return (
     <>
     <body>
       <header>
-        <h1>BBC Countries Top Trumps</h1> 
-        <hr/>
+        <img className='icon' src={BBCIcon}></img> 
+        <h1>Countries Top Trumps</h1> 
         </header>
         <Main />
       <video
