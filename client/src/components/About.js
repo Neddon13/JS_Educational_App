@@ -21,7 +21,7 @@ const About = ({handleStart}) => {
             <p>
 
             </p>
-            <button className="play-button" onClick={handleStart}>Play Now!</button>
+            <button className="glow-on-hover" onClick={handleStart}>Play Now!</button>
             </div>
         </body>
         
