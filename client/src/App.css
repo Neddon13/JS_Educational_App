@@ -34,6 +34,7 @@ body {
   background-color: rgba(180, 180, 180, 0.39);
   border-radius: 10px;
   padding: 10px;
+  font-size: larger;
 }
 
 
@@ -113,9 +114,15 @@ h3 {
   align-self: center;
   justify-self: flex-end;
   width: 150px;
-  border: 3px solid rgb(0, 3, 184);
-  background-color: rgba(180, 180, 180, 0.39);
+  border: 3px solid white;
+  background-color: rgba(0, 3, 184, 0.666);
   border-radius: 10px;
+  padding: 20px;
+}
+
+.score-title {
+  font-size: larger;
+  font-weight: bold;
 }
 
 .card table {
@@ -123,6 +130,12 @@ h3 {
   text-align: left;
   width: 270px;
   color: white;
+}
+
+.title {
+  font-size: x-large;
+  max-width: fit-content;
+  font-weight: bold;
 }
 
 .card table td {
