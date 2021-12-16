@@ -9,7 +9,7 @@ const About = ({handleStart}) => {
             <source src="https://static.videezy.com/system/resources/previews/000/052/735/original/Spinning-globe-on-gray-background.mp4" type="video/mp4"/>
             </video>
         <div className="about-div">
-            <h2>Welcome to Countries Top Trumps</h2>
+            <h2 className='about-h2'>Welcome to Countries Top Trumps</h2>
             <h4>About</h4>
                 Top Trumps is the name of a series of themed card games first introduced by the UK company Dubreq in the 1970's. Each pack is based on a particular subject, for example cars, aircraft, sports personalities, fictional heroes.
             <h4>How to Play</h4>
