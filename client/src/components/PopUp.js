@@ -12,7 +12,7 @@ const Popup = ({winner, playerScore, computerScore}) => {
     }
     return (
         <div>
-            <h2>Computer Wins, but you still learned a lot!</h2>
+            <h2 className="pop-up-h2">Computer Wins, but you still learned a lot!</h2>
             <h3>Final Scores</h3>
             <h3>Player: {playerScore}</h3>
             <h3>Computer: {computerScore}</h3>
