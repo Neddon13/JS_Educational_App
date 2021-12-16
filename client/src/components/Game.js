@@ -85,7 +85,7 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
             <Player playerCountry={playerCountry} handleChoice ={handleChoice} handleChosen={handleChosen} chosen={chosen}/>
             <Computer computerCountry={computerCountry} computerValue={computerValue}/>
             <Score playerScore={playerScore} computerScore={computerScore}/>
-            <button className="glow-on-hover" onClick={handleClick}>Submit</button>
+            <button className="glow-on-hover" id="sub-butt" onClick={handleClick}>Submit</button>
 
             <Modal isOpen={modalIsOpen} style={customStyles}>
                 <Popup winner={winner} playerScore={playerScore} computerScore={computerScore} />

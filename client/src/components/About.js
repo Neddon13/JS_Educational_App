@@ -17,7 +17,7 @@ const About = ({handleStart}) => {
             The player must select an attribute from their card and click the submit button.
             If the players attribute has a higher number than the computers, the player wins the point.
             If the computers attribute has a higher number than the players, then the computer wins the point.
-            The first player to 11 rounds will win the game. 
+            The winner will be announced after 11 rounds. Good luck! 
             <p>
 
             </p>
