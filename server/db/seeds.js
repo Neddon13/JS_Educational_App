@@ -50,7 +50,7 @@ db.countries.insertMany([
         "goldMedals": 225, 
         "silverMedals": 257, 
         "bronzeMedals": 279,
-        "about" : "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine",
+        "about" : "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine.",
         "officialLanguage": "French",   
         "independent": "Yes",
         "unMember": "Yes",
