@@ -89,8 +89,8 @@ const Game = ({playerCountry, computerCountry, handleRound, setRoundtoZero, setR
 
             <Modal isOpen={modalIsOpen} style={customStyles}>
                 <Popup winner={winner} playerScore={playerScore} computerScore={computerScore} />
-                <button onClick={setModalIsOpenToFalse}>Play Again</button>
-                <button onClick={setRoundtoZero}>Home</button>
+                <button className="glow-on-hover" id="pub" onClick={setModalIsOpenToFalse}>Play Again</button>
+                <button className="glow-on-hover" id="pub" onClick={setRoundtoZero}>Home</button>
             </Modal>
         </div>
     );
