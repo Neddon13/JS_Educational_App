@@ -29,8 +29,7 @@ if (!playerCountry.currency) {
             <p>{playerCountry.unMember}</p>
             <p className="title">Highest Point: </p> 
             <p>{playerCountry.highestPoint}</p>
-            <p className="title">Total Olympic Medals: </p>
-            <p>{playerCountry.olympicMedalsTotal}</p>
+            <p className="title">Olympic Medals: </p>
             <p> 🥇 {playerCountry.goldMedals}
                 🥈 {playerCountry.silverMedals}
                 🥉 {playerCountry.bronzeMedals}
