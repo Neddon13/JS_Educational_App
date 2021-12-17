@@ -1,38 +1,381 @@
-.App {
+h1 {
+  text-align: center;
+  position: relative;
+  bottom: 110px;;
+  padding-right: 700px;
+  font-size: 50px;
+  color: black; 
+}
+
+.about-h2 {
+  text-align: left;
+  padding-right: 400px;
+  width: 650px;
+  color: black;
+  position: relative;
+}
+
+.popup {
+  color: white;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header {
+  height: 140px;
+}
+
+h3 {
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.country-info {
+  width: 400px;
+  height: 700px;
+  overflow: scroll;
+  color: black;
+  background-color: rgba(180, 180, 180, 0.39);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: larger;
+}
+
+
+.country-info img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  margin-right: 100px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  width: 120px;
+  height: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+}
+
+.game-div button {
+  height: 50px;
+  width: 100px;
+  margin: 50px;
+  align-self: flex-end;
+  justify-self: center;
+}
+
+.player-div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
+  align-items: center;
+}
+
+.computer-div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 115px;
+  align-items: center;
+}
+
+.card {
+  width: 270px;
+  height: 400px;
+  border: 3px solid rgb(0, 3, 184);
+  background-color: rgba(180, 180, 180, 0.912);
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+.compcard {
+  width: 270px;
+  height: 400px;
+  border: 3px solid rgb(0, 3, 184);
+  
+  border-radius: 10px;
+  margin-top: 10px;
+ 
+}
+.select {
+  cursor: pointer;
+}
+
+.score-div {
+  align-self: center;
+  justify-self: flex-end;
+  width: 150px;
+  border: 3px solid white;
+  background-color: rgba(0, 3, 184, 0.666);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.score-title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.card table {
+  margin-top: 30px;
+  text-align: left;
+  width: 270px;
+  color: white;
+}
+
+.title {
+  font-size: x-large;
+  max-width: fit-content;
+  font-weight: bold;
+}
+
+.card table td {
+  padding: 5px;
+  font-size: large;
+}
+
+tr:nth-child(even) {
+  background-color:  rgb(0, 3, 184);
+}
+
+tr:nth-child(odd) {
+  background-color: #81c5dab9;
+}
+
+.card h3 {
+  text-align: center;
+  background-color: rgb(0, 3, 184);
+  color: white;
+}
+
+#pub {
+  margin-left: 17px;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+  
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 2s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+ .back {
+	transform: rotateY(180deg);
+}
+
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: orange;
+    z-index: 0;
+    position: relative;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#sub-butt {
+  margin-top: 0;
+  font-size: large;
+  
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #002bff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    background-color: #ff7300;
+    filter: blur(15px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: rgb(143, 133, 133)
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+    ;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.coolbutton {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+  font-family: verdana;
+  font-weight: bolder;
+  text-decoration: none;
+  background:linear-gradient(160deg, transparent, transparent);
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
+  transition: 0.2s;
+  padding: 20px;
+  text-align: center;
+  font-size: 150px;
+  margin-top: 20px;
+  
+
+}
+
+.coolbutton:active {
+  background: linear-gradient(160deg, transparent, rgb(0, 3, 184));
+  box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+  transition-delay: 1s;
+}
+
+.coolbutton span {
+  position: absolute;
+  display: block;
+}
+
+.coolbutton span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #eee);
+}
+.coolbutton:active span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+.coolbutton span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #eee);
+}
+.coolbutton:active span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.coolbutton span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #eee);
+}
+.coolbutton:active span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.coolbutton span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #eee);
+}
+a:active span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.about-div {
+  font: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  padding-left: 20px;
+  font-size: 27px;
+}
+
+h4 {
+  text-decoration-line: underline;
 }
